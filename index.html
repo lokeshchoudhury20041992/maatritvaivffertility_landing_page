@@ -43,39 +43,7 @@
     border-color: #9d539d !important;
   }
 
-  /* Dark violet hover effect on blog images */
-  /* Transparent overlay for blog images */
-  .blog-img {
-    position: relative;
-    overflow: hidden;
-  }
 
-  /* Transparent violet overlay - hidden by default */
-  .blog-img::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(157, 83, 157, 0.4); /* violet overlay */
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    border-top-left-radius: 0.5rem; 
-    border-top-right-radius: 0.5rem; 
-  }
-
-  /* Show overlay only on hover */
-  .blog-item:hover .blog-img::after {
-    opacity: 1;
-  }
-
-  /* Kill unwanted image hover effects */
-  .blog-item:hover .blog-img img {
-    filter: none !important;
-    transform: none !important;
-    opacity: 1 !important;
-  }
 
   /* Violet hover for Read More button */
   .btn-outline-primary:hover {
@@ -83,6 +51,11 @@
     color: #fff !important;
     border-color: #9d539d !important;
   }
+  .custom-icon-color {
+  color: #9d539d;
+    }
+    
+  
 </style>
   </head>
 
@@ -111,21 +84,21 @@
       <div class="d-flex flex-wrap align-items-center">
         <!-- Location -->
         <div class="me-4 d-flex align-items-center">
-          <i class="fas fa-map-marker-alt text-primary me-2"></i>
+          <i class="fas fa-map-marker-alt me-2" style="color:#9d539d"></i>
           <span class="text-light small">
             101, First Floor, Block-CF, Axismall Multicomplex, Newtown, Kolkata 700156, WB
           </span>
         </div>
         <!-- Phone -->
         <div class="me-4 d-flex align-items-center">
-          <i class="fas fa-phone-alt text-primary me-2"></i>
+          <i class="fas fa-phone-alt me-2" style="color:#9d539d"></i>
           <a href="tel:+918100343839" class="text-light small">
             +91 8100343839 / +91 8100353839
           </a>
         </div>
         <!-- Email -->
         <div class="d-flex align-items-center">
-          <i class="fas fa-envelope text-primary me-2"></i>
+          <i class="fas fa-envelope me-2" style="color:#9d539d"></i>
           <a href="mailto:care@maatritvaivffertility.com" class="text-light small">
             care@maatritvaivffertility.com
           </a>
@@ -159,53 +132,35 @@
 <!-- Navbar & Hero Start -->
 <div class="container-fluid position-relative p-0">
   <nav class="navbar navbar-expand-lg navbar-light bg-white px-0 py-3 py-lg-0">
-    <a href="index.html" class="navbar-brand p-0 d-flex align-items-center">
-      <img
-        src="img/logo.png"
-        alt="Maatritva IVF & Healthcare Logo"
-        class="img-fluid"
-        style="max-height: 100px; object-fit: contain"
-      />
+    <a href="index.html" class="navbar-brand p-0 d-flex align-items-center mx-lg-0 mx-auto">
+      <img src="img/logo.png" alt="Maatritva IVF & Healthcare Logo" class="img-fluid"
+        style="max-height: 100px; object-fit: contain" />
     </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarCollapse"
-    >
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="fa fa-bars"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-      <div class="navbar-nav ms-auto py-0">
-        <a href="index.html" class="nav-item nav-link active" style="color:#000;">Home</a>
-        <a href="404.html" class="nav-item nav-link" style="color:#000;">About</a>
-        <div class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:#000;">
-            Pages
-          </a>
-          <div class="dropdown-menu m-0" style="background-color:#fff; border:1px solid #ddd;">
-            <a href="404.html" class="dropdown-item" style="color:#000;">Appointment</a>
-            <a href="404.html" class="dropdown-item" style="color:#000;">Features</a>
-            <a href="404.html" class="dropdown-item" style="color:#000;">Our Blog</a>
-            <a href="404.html" class="dropdown-item" style="color:#000;">Our Team</a>
-            <a href="404.html" class="dropdown-item" style="color:#000;">Testimonial</a>
-            <a href="404.html" class="dropdown-item" style="color:#000;">404 Page</a>
-          </div>
-        </div>
-        <a href="contact.html" class="nav-item nav-link" style="color:#000;">Contact Us</a>
+      <!-- Navigation links -->
+      <div class="navbar-nav w-100 justify-content-center flex-wrap">
+        <a href="index.html" class="nav-item nav-link active px-3" style="color:#9d539d;">Home</a>
+        <a href="about.html" class="nav-item nav-link px-3" style="color:#9d539d;">About</a>
+        <a href="appointment.html" class="nav-item nav-link px-3" style="color:#9d539d;">Appointment</a>
+        <a href="404.html" class="nav-item nav-link px-3" style="color:#9d539d;">Features</a>
+        <a href="404.html" class="nav-item nav-link px-3" style="color:#9d539d;">Our Blog</a>
+        <a href="404.html" class="nav-item nav-link px-3" style="color:#9d539d;">Our Team</a>
+        <a href="404.html" class="nav-item nav-link px-3" style="color:#9d539d;">Testimonial</a>
+        <a href="contact.html" class="nav-item nav-link px-3" style="color:#9d539d;">Contact Us</a>
       </div>
-      <a
-        href="contact.html"
-        class="btn rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0"
-        style="background-color: #9d539d; color: #ffffff; border: none; transition: background-color 0.2s;"
-        onmouseover="this.style.backgroundColor='#8a438a'"
-        onmouseout="this.style.backgroundColor='#9d539d'"
-      >
-        Book Appointment
-      </a>
+      <!-- Book Appointment button fixed right -->
+      <div class="d-flex ms-auto align-items-center">
+      </div>
     </div>
   </nav>
 </div>
+
+
+
 
 
   <!-- Carousel Start -->
@@ -271,7 +226,7 @@
           onmouseover="this.style.backgroundColor='#8a438a'"
           onmouseout="this.style.backgroundColor='#9d539d'"
          >
-          Book Appointment
+          Book Now
         </a>
         </div>
       </div>
@@ -421,42 +376,42 @@
       <p class="mb-0">We provide globally recognized ART services with modern facilities, expert doctors, and complete transparency in treatment.</p>
     </div>
 
-    <div class="row g-4 feature">
-      <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="feature-item p-4">
-          <div class="feature-icon me-3 p-3 bg-white d-inline-flex align-items-center justify-content-center">
-            <i class="fa fa-user-md fa-2x"></i>
-          </div>
-          <div class="feature-content ms-3">
-            <h5 class="mb-2">Globally Trained Specialists</h5>
-            <p class="mb-0">Doctors with international fellowships in fertility, endocrinology & critical care.</p>
-          </div>
-        </div>
+<div class="row g-4 feature align-items-stretch">
+  <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="feature-item p-4 h-100">
+      <div class="feature-icon me-3 p-3 bg-white d-inline-flex align-items-center justify-content-center">
+        <i class="fa fa-user-md fa-2x"></i>
       </div>
+      <div class="feature-content ms-3">
+        <h5 class="mb-2">Globally Trained Specialists</h5>
+        <p class="mb-0">Doctors with international fellowships in fertility, endocrinology & critical care.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+    <div class="feature-item p-4 h-100">
+      <div class="feature-icon me-3 p-3 bg-white d-inline-flex align-items-center justify-content-center">
+        <i class="fa fa-heartbeat fa-2x"></i>
+      </div>
+      <div class="feature-content ms-3">
+        <h5 class="mb-2">Personalized Fertility Plans</h5>
+        <p class="mb-0">Customized treatment aligned with your health profile and reproductive goals.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+    <div class="feature-item p-4 h-100">
+      <div class="feature-icon me-3 p-3 bg-white d-inline-flex align-items-center justify-content-center">
+        <i class="fa fa-hospital fa-2x"></i>
+      </div>
+      <div class="feature-content ms-3">
+        <h5 class="mb-2">State-of-the-Art Lab</h5>
+        <p class="mb-0">ISO & ICMR-certified ART lab with advanced embryology & genetic testing facilities.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-      <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="feature-item p-4">
-          <div class="feature-icon me-3 p-3 bg-white d-inline-flex align-items-center justify-content-center">
-            <i class="fa fa-heartbeat fa-2x"></i>
-          </div>
-          <div class="feature-content ms-3">
-            <h5 class="mb-2">Personalized Fertility Plans</h5>
-            <p class="mb-0">Customized treatment aligned with your health profile and reproductive goals.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="feature-item p-4">
-          <div class="feature-icon me-3 p-3 bg-white d-inline-flex align-items-center justify-content-center">
-            <i class="fa fa-hospital fa-2x"></i>
-          </div>
-          <div class="feature-content ms-3">
-            <h5 class="mb-2">State-of-the-Art Lab</h5>
-            <p class="mb-0">ISO & ICMR-certified ART lab with advanced embryology & genetic testing facilities.</p>
-          </div>
-        </div>
-      </div>
     </div>
 
     <div class="text-center mt-5">
@@ -715,12 +670,6 @@
             <li><i class="fa fa-check me-2"></i> State-of-the-art embryology lab</li>
             <li><i class="fa fa-check me-2"></i> Internationally trained doctors</li>
           </ul>
-
-          <div class="mt-4">
-            <a href="#" class="btn btn-light btn-sm rounded-circle me-2"><i class="fab fa-facebook-f" style="color: #9d539d;"></i></a>
-            <a href="#" class="btn btn-light btn-sm rounded-circle me-2"><i class="fab fa-instagram" style="color: #9d539d;"></i></a>
-            <a href="#" class="btn btn-light btn-sm rounded-circle"><i class="fab fa-linkedin-in" style="color: #9d539d;"></i></a>
-          </div>
         </div>
       </div>
 
@@ -995,68 +944,127 @@
       </p>
     </div>
 
-    <div class="row g-4 justify-content-center">
-      
-      <!-- Blog 1 -->
-      <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="blog-item rounded shadow-lg h-100">
-          <div class="blog-img">
-            <img src="https://prashanthfertility.com/wp-content/uploads/2024/05/What-is-the-Success-rate-of-IVF-on-the-First-Try-1.png" class="img-fluid w-100 rounded-top" alt="IVF Success Journey" />
-          </div>
-          <div class="blog-centent p-4">
-            <div class="d-flex justify-content-between mb-3 text-muted small">
-              <p class="mb-0"><i class="fa fa-calendar-alt" style="color:#9d539d;"></i> Aug 2025</p>
-              <span><i class="fa fa-user-md" style="color:#9d539d;"></i> Dr. Ankita Mandal</span>
-            </div>
-            <a href="#" class="h4 d-block mb-3">Can IVF Guarantee Success in the First Cycle?</a>
-            <p class="mb-4">
-              Understanding the factors that influence IVF success and how personalized treatment improves outcomes for couples.
-            </p>
-            <a href="#" class="btn btn-outline-primary rounded-pill px-4 py-2" style="border-color:#9d539d; color:#9d539d;">Read More</a>
-          </div>
-        </div>
+<div class="row g-4 justify-content-center">
+  <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+    <div
+      class="blog-item rounded shadow-sm h-100"
+      style="border: 1px solid #f0f0f0; box-shadow: 0 4px 25px rgba(0, 0, 0, 0.04); overflow: hidden;"
+    >
+      <div class="blog-img" style="overflow: hidden;">
+        <img
+          src="https://prashanthfertility.com/wp-content/uploads/2024/05/What-is-the-Success-rate-of-IVF-on-the-First-Try-1.png"
+          class="img-fluid w-100 rounded-top"
+          alt="IVF Success Journey"
+        />
       </div>
-
-      <!-- Blog 2 -->
-      <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="blog-item rounded shadow-lg h-100">
-          <div class="blog-img">
-            <img src="https://aspirefertility.in/wp-content/uploads/2023/09/AFC-TipsPCOS-9Sep23.png" class="img-fluid w-100 rounded-top" alt="Women's Health" />
-          </div>
-          <div class="blog-centent p-4">
-            <div class="d-flex justify-content-between mb-3 text-muted small">
-              <p class="mb-0"><i class="fa fa-calendar-alt" style="color:#9d539d;"></i> Aug 2025</p>
-              <span><i class="fa fa-user-md" style="color:#9d539d;"></i> Dr. Chhabi Ghosh</span>
-            </div>
-            <a href="#" class="h4 d-block mb-3">Managing PCOS: Lifestyle & Fertility Care</a>
-            <p class="mb-4">
-              PCOS affects 1 in 10 women. Discover holistic approaches combining medication, lifestyle changes, and fertility treatments.
-            </p>
-            <a href="#" class="btn btn-outline-primary rounded-pill px-4 py-2" style="border-color:#9d539d; color:#9d539d;">Read More</a>
-          </div>
+      <div class="blog-content p-4">
+        <div class="d-flex justify-content-between mb-3 text-muted small">
+          <p class="mb-0">
+            <i class="fa fa-calendar-alt me-1" style="color: #9d539d;"></i>
+            Sep 15, 2025
+          </p>
+          <span><i class="fa fa-user-md me-1" style="color: #9d539d;"></i> Dr. Ankita Mandal</span>
         </div>
+        <a
+          href="#"
+          class="h4 d-block mb-3"
+          style="color: #333; text-decoration: none;"
+          >Can IVF Guarantee Success in the First Cycle?</a
+        >
+        <p class="mb-4">
+          Understanding the factors that influence IVF success and how
+          personalized treatment improves outcomes for couples.
+        </p>
+        <a
+          href="#"
+          class="btn btn-read-more rounded-pill px-4 py-2"
+          style="border: 1px solid #9d539d; color: #9d539d; background-color: transparent; text-decoration: none;"
+          >Read More</a
+        >
       </div>
+    </div>
+  </div>
 
-      <!-- Blog 3 -->
-      <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="blog-item rounded shadow-lg h-100">
-          <div class="blog-img">
-            <img src="https://harshahospitals.co.in/wp-content/uploads/2023/11/Managing-High-Risk-Pregnancy-with-Care.png.webp" class="img-fluid w-100 rounded-top" alt="Pregnancy Care" />
-          </div>
-          <div class="blog-centent p-4">
-            <div class="d-flex justify-content-between mb-3 text-muted small">
-              <p class="mb-0"><i class="fa fa-calendar-alt" style="color:#9d539d;"></i> Aug 2025</p>
-              <span><i class="fa fa-user-md" style="color:#9d539d;"></i> Dr. Prattay Ghosh</span>
-            </div>
-            <a href="#" class="h4 d-block mb-3">High-Risk Pregnancy: What You Need to Know</a>
-            <p class="mb-4">
-              Learn how advanced maternal care and continuous monitoring help ensure safe outcomes for both mother and baby.
-            </p>
-            <a href="#" class="btn btn-outline-primary rounded-pill px-4 py-2" style="border-color:#9d539d; color:#9d539d;">Read More</a>
-          </div>
+  <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+    <div
+      class="blog-item rounded shadow-sm h-100"
+      style="border: 1px solid #f0f0f0; box-shadow: 0 4px 25px rgba(0, 0, 0, 0.04); overflow: hidden;"
+    >
+      <div class="blog-img" style="overflow: hidden;">
+        <img
+          src="https://aspirefertility.in/wp-content/uploads/2023/09/AFC-TipsPCOS-9Sep23.png"
+          class="img-fluid w-100 rounded-top"
+          alt="Women's Health"
+        />
+      </div>
+      <div class="blog-content p-4">
+        <div class="d-flex justify-content-between mb-3 text-muted small">
+          <p class="mb-0">
+            <i class="fa fa-calendar-alt me-1" style="color: #9d539d;"></i>
+            Sep 02, 2025
+          </p>
+          <span><i class="fa fa-user-md me-1" style="color: #9d539d;"></i> Dr. Chhabi Ghosh</span>
         </div>
+        <a
+          href="404.html"
+          class="h4 d-block mb-3"
+          style="color: #333; text-decoration: none;"
+          >Managing PCOS: Lifestyle & Fertility Care</a
+        >
+        <p class="mb-4">
+          PCOS affects 1 in 10 women. Discover holistic approaches combining
+          medication, lifestyle changes, and fertility treatments.
+        </p>
+        <a
+          href="#"
+          class="btn btn-read-more rounded-pill px-4 py-2"
+          style="border: 1px solid #9d539d; color: #9d539d; background-color: transparent; text-decoration: none;"
+          >Read More</a
+        >
       </div>
+    </div>
+  </div>
 
+  <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.5s">
+    <div
+      class="blog-item rounded shadow-sm h-100"
+      style="border: 1px solid #f0f0f0; box-shadow: 0 4px 25px rgba(0, 0, 0, 0.04); overflow: hidden;"
+    >
+      <div class="blog-img" style="overflow: hidden;">
+        <img
+          src="https://harshahospitals.co.in/wp-content/uploads/2023/11/Managing-High-Risk-Pregnancy-with-Care.png.webp"
+          class="img-fluid w-100 rounded-top"
+          alt="Pregnancy Care"
+        />
+      </div>
+      <div class="blog-content p-4">
+        <div class="d-flex justify-content-between mb-3 text-muted small">
+          <p class="mb-0">
+            <i class="fa fa-calendar-alt me-1" style="color: #9d539d;"></i>
+            Aug 28, 2025
+          </p>
+          <span><i class="fa fa-user-md me-1" style="color: #9d539d;"></i> Dr. Prattay Ghosh</span>
+        </div>
+        <a
+          href="404.html"
+          class="h4 d-block mb-3"
+          style="color: #333; text-decoration: none;"
+          >High-Risk Pregnancy: What You Need to Know</a
+        >
+        <p class="mb-4">
+          Learn how advanced maternal care and continuous monitoring help ensure
+          safe outcomes for both mother and baby.
+        </p>
+        <a
+          href="404.html"
+          class="btn btn-read-more rounded-pill px-4 py-2"
+          style="border: 1px solid #9d539d; color: #9d539d; background-color: transparent; text-decoration: none;"
+          >Read More</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
     </div>
   </div>
 </div>
@@ -1080,10 +1088,10 @@
             <em>Maatritva IVF Fertility & Healthcare</em>
           </p>
         <div class="d-flex align-items-center mt-3">
-          <a class="btn-square btn text-white rounded-circle mx-1" href="#" style="background-color:#9d539d;">
+          <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.facebook.com/p/Maatritva-Fertility-IVF-Healthcare-61577218150861/" style="background-color:#9d539d;">
             <i class="fab fa-facebook-f"></i>
           </a>
-          <a class="btn-square btn text-white rounded-circle mx-1" href="#" style="background-color:#9d539d;">
+          <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.instagram.com/maatritvafertilityivf/" style="background-color:#9d539d;">
             <i class="fab fa-instagram"></i>
           </a>
           <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.youtube.com/@BestFertilityIVFclinicKolkata" style="background-color:#9d539d;">
@@ -1134,16 +1142,18 @@
 <!-- Copyright End -->
 
 <!-- Back to Top -->
-<a href="#" class="btn btn-primary btn-lg-square back-to-top">
+<a href="#" class="btn btn-lg-square back-to-top btn-primary" style="background-color: #9d539d; border-color: #9d539d;">
   <i class="fa fa-arrow-up"></i>
 </a>
+
 
     <!-- Copyright End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary btn-lg-square back-to-top"
-      ><i class="fa fa-arrow-up"></i
-    ></a>
+<a href="#" class="btn btn-lg-square back-to-top btn-primary" style="background-color: #9d539d; border-color: #9d539d;">
+  <i class="fa fa-arrow-up"></i>
+</a>
+  
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
