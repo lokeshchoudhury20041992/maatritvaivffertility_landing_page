@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Terapia - Physical Therapy Website Template</title>
+        <title>Maatritva Fertility IVF & Healthcare</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -28,7 +28,83 @@
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
     </head>
+       <style>
+      :root {
+        --primary: #9d539d;
+        --secondary: #5c5c5c;
+        --light: #f6f6f6;
+        --dark: #333333;
+      }
 
+      .text-primary,
+      .sub-title {
+        color: #9d539d !important;
+      }
+
+      .btn-primary {
+        background-color: #9d539d;
+        border-color: #9d539d;
+        color: #fff !important;
+      }
+
+      .btn-primary:hover {
+        background-color: #8b488b;
+        border-color: #8b488b;
+      }
+
+      .section-title .sub-title::before,
+      .section-title .sub-title::after {
+        background: #9d539d !important;
+      }
+
+      .about-experience {
+        background: #9d539d;
+      }
+
+      .feature-item .feature-icon .p-3 {
+        background: #fdf7fd !important;
+      }
+
+      .team-item .team-content {
+        border-color: #9d539d !important;
+      }
+
+      .back-to-top {
+        background-color: #9d539d;
+        border-color: #9d539d;
+      }
+
+      .navbar-light .navbar-nav .nav-link:hover,
+      .navbar-light .navbar-nav .nav-link.active {
+        color: #9d539d;
+      }
+      .footer a:hover {
+        color: #9d539d;
+      }
+
+      .feature-item-v2 {
+        border: 1px solid #9d539d;
+        border-radius: 15px;
+        height: 100%;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+      }
+      .feature-item-v2:hover {
+        box-shadow: 0 6px 20px rgba(157, 83, 157, 0.2);
+        transform: translateY(-5px);
+      }
+      .feature-item-v2 .feature-icon {
+        flex-shrink: 0;
+      }
+      .feature-item-v2 .feature-text h5 {
+        font-weight: 600; /* Bold heading */
+      }
+      .feature-item-v2 .feature-text p {
+        margin-bottom: 0; /* Cleaner alignment */
+        color: #5c5c5c;
+      }
+    </style>
     <body>
 
         <!-- Spinner Start -->
@@ -41,95 +117,40 @@
 
 
         <!-- Topbar Start -->
-        <div class="container-fluid bg-dark px-5 d-none d-lg-block">
-            <div class="row gx-0 align-items-center" style="height: 45px;">
-                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
-                    <div class="d-flex flex-wrap">
-                        <a href="#" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
-                        <a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
-                        <a href="#" class="text-light me-0"><i class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 text-center text-lg-end">
-                    <div class="d-flex align-items-center justify-content-end">
-                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-0"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Topbar End -->
 
 
         <!-- Navbar & Hero Start -->
        <div class="container-fluid position-relative p-0">
-  <nav
-    class="navbar navbar-expand-lg navbar-light bg-white px-0 py-3 py-lg-0"
-  >
-    <a href="index.html" class="navbar-brand p-0 d-flex align-items-center">
-      <!-- Logo without white background -->
-      <img
-        src="img/logo.png"
-        alt="Maatritva IVF & Healthcare Logo"
-        class="img-fluid"
-        style="max-height: 100px; object-fit: contain"
-      />
+<div class="container-fluid position-relative p-0">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white px-0 py-3 py-lg-0" style="transition: background-color 0.3s ease;">
+    <a href="contact.html" class="navbar-brand p-0 d-flex align-items-center mx-lg-0 mx-auto" style="gap: 10px;">
+      <img src="img/logo.png" alt="Maatritva IVF & Healthcare Logo" class="img-fluid" style="max-height: 100px; object-fit: contain;" />
     </a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarCollapse"
-    >
-      <span class="fa fa-bars"></span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fa fa-bars" style="color:#9d539d;"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-      <div class="navbar-nav ms-auto py-0">
-        <a href="index.html" class="nav-item nav-link active">Home</a>
-        <a href="404.html" class="nav-item nav-link">About</a>
-        <div class="nav-item dropdown">
-          <a
-            href="#"
-            class="nav-link dropdown-toggle"
-            data-bs-toggle="dropdown"
-          >
-            Pages
-          </a>
-          <div class="dropdown-menu m-0">
-            <a href="404.html" class="dropdown-item">Appointment</a>
-            <a href="404.html" class="dropdown-item">Features</a>
-            <a href="404.html" class="dropdown-item">Our Blog</a>
-            <a href="404.html" class="dropdown-item">Our Team</a>
-            <a href="404.html" class="dropdown-item">Testimonial</a>
-            <a href="404.html" class="dropdown-item">404 Page</a>
-          </div>
-        </div>
-        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+      <div class="navbar-nav w-100 justify-content-center flex-wrap" style="gap: 25px; font-weight: 600; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <a href="index.html" class="nav-item nav-link px-3" style="color:#8a4f8a; transition: color 0.3s ease;">Home</a>
+        <a href="about.html" class="nav-item nav-link px-3" style="color:#9d539d; transition: color 0.3s ease;">About</a>
+        <a href="appointment.html" class="nav-item nav-link px-3" style="color:#8a4f8a; transition: color 0.3s ease;">Appointment</a>
+        <a href="index.html#why-us" class="nav-item nav-link px-3" style="color:#8a4f8a; transition: color 0.3s ease;">Features</a>
+        <a href="index.html#blog" class="nav-item nav-link px-3" style="color:#8a4f8a; transition: color 0.3s ease;">Our Blog</a>
+        <a href="contact.html" class="nav-item nav-link active px-3" style="color:#8a4f8a; transition: color 0.3s ease;">Contact Us</a>
       </div>
-      <a
-      href="contact.html"
-      class="btn rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0"
-      style="background-color:#9d539d; border-color:#9d539d;"
-    >
-      Book Appointment
-    </a>
-
+      <div class="d-flex ms-auto align-items-center"></div>
     </div>
   </nav>
+</div>
         <!-- Navbar End -->
 
 
         <!-- Header Start -->
         <div class="container-fluid bg-breadcrumb">
             <div class="container text-center py-5" style="max-width: 900px;">
-                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h1>
-                <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active text-primary">Contact</li>
-                </ol>    
+                <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">Contact Us</h1> 
             </div>
         </div>
         <!-- Header End -->
@@ -149,7 +170,7 @@
                         <h2 class="display-5 text-white mb-2">Get in Touch</h2>
                         <p class="mb-4 text-white"> we are always here to support your fertility journey.  
         Reach out to us to book an appointment, ask a question, or simply say hello!</p>
-                        <form>
+                        <form id ="inquiryForm">
                             <div class="row g-3">
                                 <div class="col-lg-12 col-xl-6">
                                     <div class="form-floating">
@@ -188,7 +209,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-light w-100 py-3" style="color: violet;">Send Message</button>
+                                    <button class="btn btn-light w-100 py-3" type="submit" style="color: violet;">Send Message</button>
 
                                 </div>
                             </div>
@@ -244,10 +265,10 @@
             <em>Maatritva IVF Fertility & Healthcare</em>
           </p>
         <div class="d-flex align-items-center mt-3">
-          <a class="btn-square btn text-white rounded-circle mx-1" href="#" style="background-color:#9d539d;">
+          <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.facebook.com/p/Maatritva-Fertility-IVF-Healthcare-61577218150861/" style="background-color:#9d539d;">
             <i class="fab fa-facebook-f"></i>
           </a>
-          <a class="btn-square btn text-white rounded-circle mx-1" href="#" style="background-color:#9d539d;">
+          <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.instagram.com/maatritvafertilityivf/" style="background-color:#9d539d;">
             <i class="fab fa-instagram"></i>
           </a>
           <a class="btn-square btn text-white rounded-circle mx-1" href="https://www.youtube.com/@BestFertilityIVFclinicKolkata" style="background-color:#9d539d;">
@@ -261,9 +282,9 @@
       <div class="col-md-6 col-lg-6 col-xl-4">
       <div class="footer-item d-flex flex-column">
         <h4 class="mb-4 text-white">Quick Links</h4>
-        <a href="#"><i class="fas fa-angle-right me-2" style="color:#9d539d;"></i> About Us</a>
-        <a href="#"><i class="fas fa-angle-right me-2" style="color:#9d539d;"></i> Contact Us</a>
-        <a href="#"><i class="fas fa-angle-right me-2" style="color:#9d539d;"></i> Our Blog</a>
+        <a href="/about.html"><i class="fas fa-angle-right me-2" style="color:#9d539d;"></i> About Us</a>
+        <a href="/contact.html"><i class="fas fa-angle-right me-2" style="color:#9d539d;"></i> Contact Us</a>
+        <a href="/index.html#blog"><i class="fas fa-angle-right me-2" style="color:#9d539d;"></i> Our Blog</a>
       </div>
       </div>
 
@@ -283,7 +304,9 @@
         <!-- Copyright End -->
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+        <a href="#" class="btn btn-lg-square back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </a>   
 
         
         <!-- JavaScript Libraries -->
@@ -293,7 +316,16 @@
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        
+            <script type="module">
+      // Standard, clean import of the function directly into the module scope
+      import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
+
+      // Make the function available globally for contact.js to access,
+      // as contact.js is also a module but can't directly access the import.
+      window.createSupabaseClient = createClient;
+    </script>
+
+    <script type="module" src="js/inquiry.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
