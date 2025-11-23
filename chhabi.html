@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Chhabi Ghosh | Senior Fertility Specialist</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+          },
+          colors: {
+            medical: {
+              50: '#F2F8F6',  /* Very light mint */
+              100: '#E6F2EE',
+              500: '#3A8B7D', /* Primary Teal */
+              800: '#11423B', /* Deep Emerald */
+              900: '#092824', /* Darkest Green */
+            },
+            gold: {
+              400: '#C5A059',
+              500: '#B08D55',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .glass-nav {
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    .blob {
+      position: absolute;
+      filter: blur(80px);
+      opacity: 0.4;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body class="font-sans text-gray-600 bg-stone-50 antialiased selection:bg-medical-500 selection:text-white">
+
+  <nav class="fixed w-full z-50 glass-nav transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 bg-medical-800 rounded-full flex items-center justify-center text-white">
+            <span class="font-serif font-bold text-xl">C</span>
+          </div>
+          <div>
+            <h1 class="font-serif text-xl font-bold text-gray-900 leading-none">Dr. Chhabi Ghosh</h1>
+            <p class="text-xs text-medical-500 font-medium tracking-wider uppercase">Maatritva</p>
+          </div>
+        </div>
+
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="#about" class="text-sm font-medium text-gray-600 hover:text-medical-800 transition">About</a>
+          <a href="#expertise" class="text-sm font-medium text-gray-600 hover:text-medical-800 transition">Expertise</a>
+          <a href="#journey" class="text-sm font-medium text-gray-600 hover:text-medical-800 transition">Patient Journey</a>
+          <a href="appointment.html" class="px-6 py-2.5 bg-medical-800 text-white text-sm font-medium rounded-full hover:bg-medical-900 transition shadow-lg shadow-medical-800/20">
+            Book Consultation
+          </a>
+        </div>
+
+        <button class="md:hidden text-gray-800" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+      <div class="px-4 pt-2 pb-6 space-y-2">
+        <a href="#about" class="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 rounded-md">About</a>
+        <a href="#expertise" class="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 rounded-md">Expertise</a>
+        <a href="#journey" class="block px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 rounded-md">Journey</a>
+        <a href="appointment.html" class="block w-full text-center mt-4 px-5 py-3 bg-medical-800 text-white font-medium rounded-lg">
+          Book Now
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+    <div class="blob bg-medical-200 w-96 h-96 rounded-full top-0 left-0 -translate-x-1/2 -translate-y-1/2"></div>
+    <div class="blob bg-gold-400 w-64 h-64 rounded-full bottom-0 right-0 translate-x-1/3 translate-y-1/3 opacity-20"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div class="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+        
+        <div class="order-2 lg:order-1">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-medical-50 border border-medical-100 text-medical-800 text-xs font-bold tracking-wide uppercase mb-6">
+            <span class="w-2 h-2 rounded-full bg-medical-500"></span>
+            Now accepting new patients
+          </div>
+          
+          <h1 class="font-serif text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+            Experience Meets <br/>
+            <span class="text-medical-800 italic">Modern Science.</span>
+          </h1>
+          
+          <p class="text-lg text-gray-600 mb-8 max-w-lg leading-relaxed">
+            Dr. Chhabi Ghosh combines <strong>35+ years</strong> of clinical excellence with advanced training in Reproductive Medicine & IVF to help you build your family.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="appointment.html" class="flex items-center justify-center gap-2 px-8 py-4 bg-medical-800 text-white rounded-full hover:bg-medical-900 transition font-medium shadow-xl shadow-medical-900/10">
+              <span>Schedule Visit</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+            <a href="#expertise" class="flex items-center justify-center gap-2 px-8 py-4 bg-white border border-gray-200 text-gray-700 rounded-full hover:bg-gray-50 transition font-medium">
+              View Specialties
+            </a>
+          </div>
+
+          <div class="mt-10 pt-8 border-t border-gray-200 flex flex-wrap gap-x-8 gap-y-4 text-sm font-medium text-gray-500">
+            <span class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-gold-500"></i> MBBS</span>
+            <span class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-gold-500"></i> DGO</span>
+            <span class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-gold-500"></i> FIAOG</span>
+            <span class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-gold-500"></i> IRM (IVF)</span>
+          </div>
+        </div>
+
+        <div class="order-1 lg:order-2 flex justify-center lg:justify-end">
+          <div class="relative w-[350px] h-[450px] lg:w-[400px] lg:h-[500px]">
+            <div class="absolute inset-0 border-2 border-gold-400 rounded-full translate-x-4 translate-y-4"></div>
+            <div class="absolute inset-0 bg-gray-200 rounded-full overflow-hidden shadow-2xl">
+               <img src="../img/Chhabi.jpg" alt="Dr Chhabi Ghosh" class="w-full h-full object-cover">
+            </div>
+            <div class="absolute bottom-10 -left-6 bg-white p-4 rounded-2xl shadow-xl border border-gray-100 max-w-[180px]">
+              <div class="flex items-center gap-3 mb-1">
+                <div class="p-2 bg-medical-50 rounded-lg text-medical-800">
+                  <i data-lucide="award" class="w-5 h-5"></i>
+                </div>
+                <span class="font-serif font-bold text-3xl text-gray-900">35+</span>
+              </div>
+              <p class="text-xs text-gray-500 uppercase tracking-wide font-semibold">Years of Experience</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center mb-16">
+        <h2 class="font-serif text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Compassionate Care for Every Stage</h2>
+        <div class="w-20 h-1 bg-gold-400 mx-auto mb-6"></div>
+        <p class="text-gray-600 leading-relaxed">
+          "I believe that every patient deserves a combination of advanced medical technology and genuine emotional support. At Maatritva, we don't just treat conditions; we partner with you on your journey to wellness and parenthood."
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-8 bg-medical-50 rounded-2xl border border-medical-100 hover:shadow-lg transition duration-300">
+          <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center text-medical-800 mb-6 shadow-sm">
+            <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-gray-900 mb-3">Distinguished Expertise</h3>
+          <p class="text-sm text-gray-600">MBBS, DGO, and FIAOG qualified. Specially trained in Reproductive Medicine and IVF from the prestigious IRM, Kolkata.</p>
+        </div>
+
+        <div class="p-8 bg-white rounded-2xl border border-gray-100 shadow-lg hover:-translate-y-1 transition duration-300">
+          <div class="w-12 h-12 bg-medical-800 rounded-xl flex items-center justify-center text-white mb-6 shadow-sm">
+            <i data-lucide="microscope" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-gray-900 mb-3">Advanced ART Solutions</h3>
+          <p class="text-sm text-gray-600">Utilization of the latest Assisted Reproductive Technologies to handle complex infertility cases with higher success rates.</p>
+        </div>
+
+        <div class="p-8 bg-medical-50 rounded-2xl border border-medical-100 hover:shadow-lg transition duration-300">
+          <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center text-medical-800 mb-6 shadow-sm">
+            <i data-lucide="heart-handshake" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-serif text-xl font-bold text-gray-900 mb-3">Personalized Approach</h3>
+          <p class="text-sm text-gray-600">No two journeys are the same. We tailor every treatment plan to your specific medical history and personal goals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="expertise" class="py-20 bg-stone-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+        <div>
+          <span class="text-medical-800 font-bold tracking-widest uppercase text-xs mb-2 block">Clinical Services</span>
+          <h2 class="font-serif text-3xl font-bold text-gray-900">Areas of Specialization</h2>
+        </div>
+        <a href="appointment.html" class="hidden md:inline-flex items-center gap-2 text-medical-800 font-medium hover:text-medical-900 transition mt-4 md:mt-0">
+          Book a Service <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="group bg-white p-6 rounded-xl shadow-sm hover:shadow-xl hover:bg-medical-800 transition-all duration-300 cursor-pointer">
+          <i data-lucide="baby" class="w-8 h-8 text-medical-500 group-hover:text-gold-400 mb-4 transition-colors"></i>
+          <h3 class="font-serif text-lg font-bold text-gray-900 group-hover:text-white mb-2">IVF & Infertility</h3>
+          <p class="text-sm text-gray-500 group-hover:text-medical-100">Complete evaluation and ART solutions including IUI and IVF.</p>
+        </div>
+        
+        <div class="group bg-white p-6 rounded-xl shadow-sm hover:shadow-xl hover:bg-medical-800 transition-all duration-300 cursor-pointer">
+          <i data-lucide="activity" class="w-8 h-8 text-medical-500 group-hover:text-gold-400 mb-4 transition-colors"></i>
+          <h3 class="font-serif text-lg font-bold text-gray-900 group-hover:text-white mb-2">High-Risk Pregnancy</h3>
+          <p class="text-sm text-gray-500 group-hover:text-medical-100">Specialized care for complex obstetric cases and safe delivery.</p>
+        </div>
+
+        <div class="group bg-white p-6 rounded-xl shadow-sm hover:shadow-xl hover:bg-medical-800 transition-all duration-300 cursor-pointer">
+          <i data-lucide="calendar-clock" class="w-8 h-8 text-medical-500 group-hover:text-gold-400 mb-4 transition-colors"></i>
+          <h3 class="font-serif text-lg font-bold text-gray-900 group-hover:text-white mb-2">Menopause Care</h3>
+          <p class="text-sm text-gray-500 group-hover:text-medical-100">Hormonal balance and wellness guidance for post-reproductive health.</p>
+        </div>
+
+        <div class="group bg-white p-6 rounded-xl shadow-sm hover:shadow-xl hover:bg-medical-800 transition-all duration-300 cursor-pointer">
+          <i data-lucide="user-plus" class="w-8 h-8 text-medical-500 group-hover:text-gold-400 mb-4 transition-colors"></i>
+          <h3 class="font-serif text-lg font-bold text-gray-900 group-hover:text-white mb-2">Gynae Surgery</h3>
+          <p class="text-sm text-gray-500 group-hover:text-medical-100">Expertise in laparoscopy, fibroid removal, and cyst treatment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="journey" class="py-20 bg-medical-900 text-white relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 30px 30px;"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center mb-16">
+        <h2 class="font-serif text-3xl lg:text-4xl font-bold mb-4">Your Path to Parenthood</h2>
+        <p class="text-medical-100">A structured approach to ensure the best outcomes.</p>
+      </div>
+
+      <div class="grid md:grid-cols-4 gap-8 text-center">
+        <div class="relative">
+          <div class="w-16 h-16 mx-auto bg-medical-800 border border-medical-600 rounded-full flex items-center justify-center text-xl font-bold font-serif mb-4 shadow-[0_0_20px_rgba(58,139,125,0.3)]">1</div>
+          <h3 class="text-xl font-semibold mb-2">Consultation</h3>
+          <p class="text-sm text-medical-200 leading-relaxed">A detailed discussion of your medical history and previous reports with Dr. Ghosh.</p>
+        </div>
+
+        <div class="relative">
+          <div class="hidden md:block absolute top-8 -left-1/2 w-full h-0.5 bg-medical-700 -z-10"></div>
+          <div class="w-16 h-16 mx-auto bg-medical-800 border border-medical-600 rounded-full flex items-center justify-center text-xl font-bold font-serif mb-4 shadow-[0_0_20px_rgba(58,139,125,0.3)]">2</div>
+          <h3 class="text-xl font-semibold mb-2">Diagnosis</h3>
+          <p class="text-sm text-medical-200 leading-relaxed">Advanced screening, ultrasound, and hormone profiling to pinpoint the cause.</p>
+        </div>
+
+        <div class="relative">
+           <div class="hidden md:block absolute top-8 -left-1/2 w-full h-0.5 bg-medical-700 -z-10"></div>
+          <div class="w-16 h-16 mx-auto bg-medical-800 border border-medical-600 rounded-full flex items-center justify-center text-xl font-bold font-serif mb-4 shadow-[0_0_20px_rgba(58,139,125,0.3)]">3</div>
+          <h3 class="text-xl font-semibold mb-2">Treatment</h3>
+          <p class="text-sm text-medical-200 leading-relaxed">Customized protocols (IVF, IUI, or Medication) managed personally by Dr. Ghosh.</p>
+        </div>
+
+        <div class="relative">
+           <div class="hidden md:block absolute top-8 -left-1/2 w-full h-0.5 bg-medical-700 -z-10"></div>
+          <div class="w-16 h-16 mx-auto bg-gold-500 text-white rounded-full flex items-center justify-center text-xl font-bold font-serif mb-4 shadow-[0_0_20px_rgba(197,160,89,0.5)]">4</div>
+          <h3 class="text-xl font-semibold mb-2">Success</h3>
+          <p class="text-sm text-medical-200 leading-relaxed">Ongoing pregnancy support and care through to a safe delivery.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="font-serif text-3xl font-bold text-gray-900">Common Questions</h2>
+      </div>
+
+      <div class="space-y-4">
+        <details class="group p-4 bg-stone-50 rounded-lg open:bg-white open:ring-1 open:ring-medical-200 transition-all">
+          <summary class="flex justify-between items-center font-medium cursor-pointer list-none text-gray-800">
+            <span>What should I bring to my first appointment?</span>
+            <span class="transition group-open:rotate-180"><i data-lucide="chevron-down" class="w-5 h-5 text-gray-400"></i></span>
+          </summary>
+          <div class="text-gray-600 mt-3 text-sm leading-relaxed">
+            Please bring any previous medical records, ultrasound reports, and blood test results. If you have undergone previous fertility treatments, discharge summaries are very helpful.
+          </div>
+        </details>
+
+        <details class="group p-4 bg-stone-50 rounded-lg open:bg-white open:ring-1 open:ring-medical-200 transition-all">
+          <summary class="flex justify-between items-center font-medium cursor-pointer list-none text-gray-800">
+            <span>How long does an IVF cycle take?</span>
+            <span class="transition group-open:rotate-180"><i data-lucide="chevron-down" class="w-5 h-5 text-gray-400"></i></span>
+          </summary>
+          <div class="text-gray-600 mt-3 text-sm leading-relaxed">
+            A typical IVF cycle takes about 4 to 6 weeks from the start of ovarian stimulation to the pregnancy test. However, timelines vary based on individual protocols.
+          </div>
+        </details>
+
+         <details class="group p-4 bg-stone-50 rounded-lg open:bg-white open:ring-1 open:ring-medical-200 transition-all">
+          <summary class="flex justify-between items-center font-medium cursor-pointer list-none text-gray-800">
+            <span>Do you treat high-risk pregnancies?</span>
+            <span class="transition group-open:rotate-180"><i data-lucide="chevron-down" class="w-5 h-5 text-gray-400"></i></span>
+          </summary>
+          <div class="text-gray-600 mt-3 text-sm leading-relaxed">
+            Yes, Dr. Ghosh has extensive experience (35+ years) in managing high-risk pregnancies, including those with hypertension, diabetes, or history of recurrent miscarriage.
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-medical-900 text-white pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
+        
+        <div>
+          <h2 class="font-serif text-2xl font-bold mb-4">Dr. Chhabi Ghosh</h2>
+          <p class="text-medical-200 text-sm mb-6 leading-relaxed">
+            Providing expert gynecological and fertility care with compassion and integrity. Trained in Reproductive Medicine at IRM, Kolkata.
+          </p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-medical-300 hover:text-white transition"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+            <a href="#" class="text-medical-300 hover:text-white transition"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+            <a href="#" class="text-medical-300 hover:text-white transition"><i data-lucide="linkedin" class="w-5 h-5"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-bold mb-4 text-gold-400">Contact Clinic</h3>
+          <ul class="space-y-3 text-sm text-medical-100">
+            <li class="flex items-start gap-3">
+              <i data-lucide="map-pin" class="w-5 h-5 shrink-0 mt-0.5"></i>
+              <span>Kolkata, West Bengal<br>India</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i data-lucide="phone" class="w-5 h-5 shrink-0"></i>
+              <span>+91 98765 43210</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i data-lucide="mail" class="w-5 h-5 shrink-0"></i>
+              <span>contact@maatritva.com</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="lg:text-right">
+          <h3 class="text-lg font-bold mb-4 text-gold-400">Appointments</h3>
+          <p class="text-sm text-medical-200 mb-6">
+            Ready to start your journey? Book a consultation today.
+          </p>
+          <a href="appointment.html" class="inline-block px-6 py-3 bg-gold-500 text-white font-medium rounded-lg hover:bg-gold-400 transition">
+            Book Online
+          </a>
+        </div>
+      </div>
+
+      <div class="border-t border-medical-800 pt-8 text-center text-xs text-medical-400">
+        <p>&copy; 2025 Dr. Chhabi Ghosh / Maatritva. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
