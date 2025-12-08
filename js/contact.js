@@ -1,82 +1,79 @@
-// js/contact.js
+// js/callback.js - Handles submission for the callbackrequests form
 
-// Import createClient directly. This only works because index.html loads contact.js as a module.
-// Note: This import may be redundant if the code from step 1 is used, but it's the correct
-// pattern for a true module environment. We will rely on the global assignment from Step 1.
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
 const SUPABASE_URL = "https://gxtzhojshtcxtmqtobai.supabase.co";
-// Note: process.env.SUPABASE_KEY is for Node environments. We use your ANON key here.
-const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd4dHpob2pzaHRjeHRtcXRvYmFpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk2NTI5NjgsImV4cCI6MjA3NTIyODk2OH0.vu3TynNWVUzbM66taJapM3bPDCb3PB4dpXh44oUydqg";
-// We use the global function created in index.html to initialize the client.
-console.log("Initializing Supabase client using module approach...");
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd4dHpob2pzaHRjeHRtcXRvYmFpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk2NTI5NjgsImV4cCI6MjA3NTIyODk2OH0.vu3TynNWVUzbM66taJapM3bPDCb3PB4dpXh44oUydqg"; // add your ANON key here
 
-if (typeof window.createSupabaseClient !== "function") {
-  console.error(
-    "FATAL: Supabase module failed to load 'createClient' function."
-  );
-  alert("Connection failed. Check console for details.");
-  // We cannot proceed if the client creation function is missing.
-}
+console.log("Initializing Supabase client using ESM module...");
 
-const supabase = window.createSupabaseClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 console.log("Supabase client created successfully.");
 
 // ----------------------------------------------------
-// Form Submission Logic (Simplified and Cleaned)
+// Form Submission Logic
 // ----------------------------------------------------
 
-const contactForm = document.getElementById("contactForm");
+document.addEventListener("DOMContentLoaded", () => {
+  const callbackForm = document.getElementById("callbackForm");
 
-// This check is necessary because module scripts run before the DOM is fully ready.
-if (contactForm) {
-  const SUBMIT_BUTTON = contactForm.querySelector('button[type="submit"]');
+  if (!callbackForm) {
+    console.error("Form with id 'callbackForm' NOT FOUND.");
+    return;
+  }
 
-  contactForm.addEventListener("submit", async (event) => {
+  const SUBMIT_BUTTON = callbackForm.querySelector('button[type="submit"]');
+
+  callbackForm.addEventListener("submit", async (event) => {
     event.preventDefault();
 
-    const firstnameValue = document.getElementById("firstname").value.trim();
-    const emailValue = document.getElementById("email").value.trim();
+    // --- 1. Get Values ---
+    const fullNameValue = document.getElementById("name").value.trim();
+    const emailAddressValue = document.getElementById("email").value.trim();
+    const serviceValue = document.getElementById("service").value;
+    const timeSlotValue = document.getElementById("time").value;
 
-    if (!firstnameValue || !emailValue) {
-      alert("Please fill in First Name and Email.");
+    // --- 2. Validation ---
+    if (!fullNameValue || !emailAddressValue) {
+      alert("Please fill in Full Name and Email Address.");
       return;
     }
 
+    // --- 3. Disable Button ---
     SUBMIT_BUTTON.disabled = true;
     const originalText = SUBMIT_BUTTON.textContent;
     SUBMIT_BUTTON.textContent = "Submitting...";
 
+    // --- 4. Prepare Data ---
     const formData = {
-      firstname: firstnameValue,
-      email: emailValue,
-      phone: document.getElementById("phone").value.trim() || null,
-      gender: document.getElementById("gender").value.trim() || null,
-      dateofbirth: document.getElementById("dateofbirth").value.trim() || null,
-      department: document.getElementById("department").value.trim() || null,
-      comments: document.getElementById("comments").value.trim() || null,
+      fullname: fullNameValue,
+      emailaddress: emailAddressValue,
+      phonenumber: document.getElementById("phone").value.trim() || null,
+      serviceordoctor: serviceValue !== "Select a Service" ? serviceValue : null,
+      preferreddate: document.getElementById("date").value.trim() || null,
+      preferredtimeslot:
+        timeSlotValue !== "Select Time Slot" ? timeSlotValue : null,
+      additionalnotes: document.getElementById("message").value.trim() || null,
     };
 
+    // --- 5. Insert into Supabase ---
     const { data, error } = await supabase
-      .from("contactsubmissions")
+      .from("callbackrequests")
       .insert([formData])
       .select();
 
+    // --- 6. Re-enable Button ---
     SUBMIT_BUTTON.disabled = false;
     SUBMIT_BUTTON.textContent = originalText;
 
+    // --- 7. Handle Result ---
     if (error) {
       console.error("Error inserting data:", error);
-      if (error.message.includes("permission denied")) {
-        alert("Submission failed: Permission Denied. Check RLS policies.");
-      } else {
-        alert("Submission failed: " + error.message);
-      }
-    } else {
-      console.log("Data inserted successfully:", data);
-      alert("Appointment request submitted successfully!");
-      contactForm.reset();
+      alert("Submission failed: " + error.message);
+      return;
     }
+
+    alert("Callback request submitted successfully!");
+    callbackForm.reset();
   });
-} else {
-  console.error("Form with id 'contactForm' NOT FOUND.");
-}
+});
