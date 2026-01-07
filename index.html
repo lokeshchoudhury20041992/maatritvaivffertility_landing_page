@@ -1171,6 +1171,16 @@
         // Make the function available globally for contact.js to access, 
         // as contact.js is also a module but can't directly access the import.
         window.createSupabaseClient = createClient; 
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DWJVT55ZDF">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DWJVT55ZDF');
+</script>
     </script>
     
     <script type="module" src="js/contact.js"></script>
