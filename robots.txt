@@ -1,0 +1,47 @@
+# robots.txt for Maatritva IVF Fertility & Healthcare
+# Website: https://maatritvaivffertility.com
+
+# Google Search Bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 2
+
+# Google Image Bot
+User-agent: Googlebot-Image
+Allow: /img/
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# ChatGPT / OpenAI Crawler
+User-agent: GPTBot
+Allow: /
+
+# ChatGPT User-facing agent
+User-agent: ChatGPT-User
+Allow: /
+
+# Google Gemini / Bard crawler (Google-Extended)
+User-agent: Google-Extended
+Allow: /
+
+# Common AI crawlers
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# All other crawlers
+User-agent: *
+Allow: /
+Disallow: /lib/
+Disallow: /scss/
+
+# Sitemap location
+Sitemap: https://maatritvaivffertility.com/sitemap.xml
