@@ -16,7 +16,7 @@
 
   <url>
     <loc>https://maatritvaivffertility.com/</loc>
-    <lastmod>2025-02-25</lastmod>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -31,7 +31,7 @@
 
   <url>
     <loc>https://maatritvaivffertility.com/about.html</loc>
-    <lastmod>2025-02-25</lastmod>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -114,6 +114,21 @@
     <lastmod>2025-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://maatritvaivffertility.com/img/Chhabi.jpg</image:loc>
+      <image:title>Dr. Chhabi Ghosh – Senior Fertility Specialist, Maatritva IVF Kolkata</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://maatritvaivffertility.com/khushboo.html</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://maatritvaivffertility.com/img/khushboo.jpg</image:loc>
+      <image:title>Dr. Khushboo Agarwal – Consultant Fertility Specialist &amp; Gynaecologist, Maatritva IVF Kolkata</image:title>
+    </image:image>
   </url>
 
   <!-- ===== BLOG / ARTICLE PAGES ===== -->

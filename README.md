@@ -40,6 +40,7 @@ maatritvaivffertility_landing_page-main/
 │
 ├── ── DOCTOR PROFILE PAGES ──
 ├── chhabi.html                             ← Dr. Chhabi Ghosh profile
+├── khushboo.html                           ← Dr. Khushboo Agarwal profile (NEW)
 │
 ├── ── TECHNICAL SEO FILES ──
 ├── sitemap.xml                             ← XML Sitemap (Google + AI crawlers)
@@ -58,6 +59,7 @@ maatritvaivffertility_landing_page-main/
 │   ├── dr_ankita.png                       ← Dr. Ankita Mandal photo
 │   ├── Chhabi.jpg                          ← Dr. Chhabi Ghosh photo
 │   ├── Prattay.png                         ← Dr. Prattay Ghosh photo
+│   ├── khushboo.jpg                        ← Dr. Khushboo Agarwal photo (NEW)
 │   ├── hero_image_1.png                    ← Homepage carousel image 1
 │   ├── hero_image_2.png                    ← Homepage carousel image 2
 │   └── blog-1.jpg / blog-2.jpg / blog-3.jpg
@@ -124,6 +126,7 @@ maatritvaivffertility_landing_page-main/
 | `BreadcrumbList` | All inner pages | Navigation context |
 | `Organization` | Homepage | Brand authority |
 | `WebSite` + `SearchAction` | Homepage | Sitelinks search box |
+| `Physician` | `khushboo.html`, `chhabi.html` | Doctor authority & rich results |
 
 ### Internal Linking Structure (Topical Authority Cluster)
 
@@ -281,11 +284,12 @@ When a user submits a form, the data is pushed concurrently to two destinations 
 
 ## 👨‍⚕️ Doctors Featured
 
-| Doctor | Specialization | Experience |
-| --- | --- | --- |
-| Dr. Ankita Mandal, MD (OBGYN) | Gynecologist, Obstetrician & Infertility Specialist | 12+ Years (Gold Medalist) |
-| Dr. Chhabi Ghosh | Senior Specialist in ART & Infertility | 35+ Years |
-| Dr. Prattay Ghosh, MD | General Physician & Diabetologist | 14+ Years |
+| Doctor | Specialization | Profile Page | Experience |
+| --- | --- | --- | --- |
+| Dr. Ankita Mandal, MD (OBGYN) | Gynecologist, Obstetrician & Infertility Specialist | [ankitaivf.in](https://ankitaivf.in/) | 12+ Years (Gold Medalist) |
+| Dr. Chhabi Ghosh | Senior Specialist in ART & Infertility | [chhabi.html](https://maatritvaivffertility.com/chhabi.html) | 35+ Years |
+| Dr. Khushboo Agarwal | Consultant Fertility Specialist & Gynaecologist | [khushboo.html](https://maatritvaivffertility.com/khushboo.html) | IVF & ICSI Expert |
+| Dr. Prattay Ghosh, MD | General Physician & Diabetologist | [drprattayghosh.com](https://drprattayghosh.com/) | 14+ Years |
 
 ---
 
