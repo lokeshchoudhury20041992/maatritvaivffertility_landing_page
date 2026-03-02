@@ -7,6 +7,20 @@
 
 ---
 
+## 📅 Weekly Changelog (Feb 20 – Mar 2, 2026)
+
+| Date | Feature / Update | Description |
+| :--- | :--- | :--- |
+| **Mar 2** | CI/CD Automation | Created `.github/workflows/deploy.yml` to automatically deploy updates via FTP on push. |
+| **Mar 2** | Backend Phase 2-4 | Built NestJS Blogs CMS, Secure Embed Pipeline, SEO IndexNow Automation, and Affiliate tracking. |
+| **Feb 28** | New Doctor Profile | Added Dr. Khushboo Agarwal (`khushboo.html`) and integrated her into `index.html` and `about.html`. |
+| **Feb 28** | Backend Scaffold | Initialized NestJS backend with Prisma, JWT Auth, and granular RBAC (Role-Based Access Control). |
+| **Feb 25** | Dual-Database Forms | Rewrote form handlers to push leads to both Make.com (Google Sheets) and Supabase concurrently. |
+| **Feb 23** | Visual Verification | Verified SEO Pillar page layouts (`/best-ivf-specialist-in-kolkata`) across target devices. |
+| **Feb 20** | CSS/Schema Fixes | Fixed Turbopack CSS issues, expanded Dr. Ankita's layout, and injected JSON-LD `Physician` schema. |
+
+---
+
 ## 📁 Project Structure
 
 ```text
