@@ -6,11 +6,11 @@
   Generated: 2025-02-25
   Optimized for: Google Search Bot, ChatGPT Crawler (GPTBot), Bingbot, Gemini AI
 -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-          http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://maatritva-backend-production.up.railway.app/api/v1/seo/sitemap.xml</loc>
+    <lastmod>2026-03-02</lastmod>
+  </sitemap>
 
   <!-- ===== CORE PAGES ===== -->
 
@@ -189,4 +189,4 @@
     <priority>0.7</priority>
   </url>
 
-</urlset>
+</sitemapindex>
