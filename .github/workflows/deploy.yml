@@ -1,0 +1,33 @@
+name: Deploy Static Website via FTP
+
+on:
+  push:
+    branches:
+      - main # Triggers the workflow on every push to the main branch
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
+      
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # The directory on the remote server to upload to (usually public_html or htdocs)
+          # Change this to match your hosting path if it's not the root of your FTP user
+          server-dir: ./ 
+          # Files/folders to ignore during deployment
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            .github/
+            README.md
+            fix_external_images.py
+            update_forms.py
