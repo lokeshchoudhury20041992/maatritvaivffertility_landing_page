@@ -300,7 +300,7 @@ When a user submits a form, the data is pushed concurrently to two destinations 
 
 | Doctor | Specialization | Profile Page | Experience |
 | --- | --- | --- | --- |
-| Dr. Ankita Mandal, MD (OBGYN) | Gynecologist, Obstetrician & Infertility Specialist | [ankitaivf.in](https://ankitaivf.in/) | 12+ Years (Gold Medalist) |
+| Dr. Ankita Mandal, MD (OBGYN) | Gynecologist, Obstetrician & Infertility Specialist | [ankitaivf.in](ankita.html) | 12+ Years (Gold Medalist) |
 | Dr. Chhabi Ghosh | Senior Specialist in ART & Infertility | [chhabi.html](https://maatritvaivffertility.com/chhabi.html) | 35+ Years |
 | Dr. Khushboo Agarwal | Consultant Fertility Specialist & Gynaecologist | [khushboo.html](https://maatritvaivffertility.com/khushboo.html) | IVF & ICSI Expert |
 | Dr. Prattay Ghosh, MD | General Physician & Diabetologist | [drprattayghosh.com](https://drprattayghosh.com/) | 14+ Years |

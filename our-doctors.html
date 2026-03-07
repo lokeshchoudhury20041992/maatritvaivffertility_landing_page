@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Our Doctors - Maatritva IVF & Fertility Center Best IVF Centre in Kolkata</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="fertility clinic, ivf, icsi, iui, pgt, assisted reproductive technology, doctors" name="keywords" />
+  <meta
+    content="Meet our esteemed team of highly experienced and compassionate specialists dedicated to providing you with the highest standard of care at Maatritva."
+    name="description" />
+  <link rel="icon" href="https://maatritvaivffertility.com/img/logo.png" type="image/png">
+  <link rel="shortcut icon" href="https://maatritvaivffertility.com/img/logo.png" type="image/png">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icon Font Stylesheet -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!-- Custom CSS Overrides -->
+  <style>
+    :root {
+      --primary: #9d539d;
+      --secondary: #5c5c5c;
+      --light: #f6f6f6;
+      --dark: #333333;
+    }
+
+    .text-primary,
+    .sub-title {
+      color: #9d539d !important;
+    }
+
+    .btn-primary {
+      background-color: #9d539d;
+      border-color: #9d539d;
+      color: #fff !important;
+    }
+
+    .btn-primary:hover {
+      background-color: #8b488b;
+      border-color: #8b488b;
+    }
+
+    .section-title .sub-title::before,
+    .section-title .sub-title::after {
+      background: #9d539d !important;
+    }
+
+    .about-experience {
+      background: #9d539d;
+    }
+
+    .back-to-top {
+      background-color: #9d539d;
+      border-color: #9d539d;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-nav .nav-link.active {
+      color: #9d539d;
+    }
+
+    .footer a:hover {
+      color: #9d539d;
+    }
+
+    /* Premium Horizontal Doctor Card Styling */
+    .premium-doctor-card {
+      background: #ffffff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      border: 1px solid rgba(157, 83, 157, 0.1);
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 2.5rem;
+    }
+
+    .premium-doctor-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 50px rgba(157, 83, 157, 0.15);
+      border-color: rgba(157, 83, 157, 0.3);
+    }
+
+    .doctor-image-wrapper {
+      flex: 0 0 320px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .doctor-image-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      transition: transform 0.6s ease;
+    }
+
+    .premium-doctor-card:hover .doctor-image-wrapper img {
+      transform: scale(1.05);
+    }
+
+    .doctor-details-wrapper {
+      flex: 1;
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .doctor-name {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 0.5rem;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .doctor-specialty {
+      color: #9d539d;
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      display: inline-block;
+      padding: 0.4rem 1.2rem;
+      background: rgba(157, 83, 157, 0.08);
+      border-radius: 50px;
+      letter-spacing: 0.5px;
+    }
+
+    .doctor-bio {
+      color: #666;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      margin-bottom: 2rem;
+    }
+
+    .doctor-stats {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      border-top: 1px solid #f0f0f0;
+      border-bottom: 1px solid #f0f0f0;
+      padding: 1.5rem 0;
+    }
+
+    .stat-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .stat-icon {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background: #fdf7fd;
+      color: #9d539d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+
+    .stat-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .stat-value {
+      font-weight: 700;
+      color: #333;
+      font-size: 1.1rem;
+    }
+
+    .stat-label {
+      color: #888;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .doctor-action-btn {
+      align-self: flex-start;
+      background: #9d539d;
+      color: white !important;
+      padding: 14px 34px;
+      border-radius: 50px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(157, 83, 157, 0.4);
+      border: 2px solid transparent;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .doctor-action-btn:hover {
+      background: white;
+      color: #9d539d !important;
+      border-color: #9d539d;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(157, 83, 157, 0.2);
+    }
+
+    .doctor-action-btn i {
+      transition: transform 0.3s ease;
+    }
+
+    .doctor-action-btn:hover i {
+      transform: translateX(5px);
+    }
+
+    @media (max-width: 991.98px) {
+      .premium-doctor-card {
+        flex-direction: column;
+      }
+
+      .doctor-image-wrapper {
+        flex: 0 0 350px;
+      }
+
+      .doctor-details-wrapper {
+        padding: 2rem;
+      }
+
+      .doctor-stats {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+  </style>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DWJVT55ZDF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-DWJVT55ZDF');
+  </script>
+</head>
+
+<body>
+  <!-- Spinner Start -->
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border" style="width: 3rem; height: 3rem; color: #9d539d" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <!-- Spinner End -->
+
+  <!-- Topbar Start -->
+  <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+    <div class="row gx-0 align-items-center" style="height: 55px">
+      <!-- Left Side Contact Info -->
+      <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+        <div class="d-flex flex-wrap">
+          <a href="https://maps.app.goo.gl/yM26D1vL6v7nF8q46" class="text-light me-4" target="_blank"><i
+              class="fas fa-map-marker-alt text-primary me-2 custom-icon-color"></i>Find A Clinic</a>
+          <a href="tel:+918100343839" class="text-light me-4"><i
+              class="fas fa-phone-alt text-primary me-2 custom-icon-color"></i>+91
+            81003 43839</a>
+          <a href="mailto:care@maatritvaivffertility.com" class="text-light me-0"><i
+              class="fas fa-envelope text-primary me-2 custom-icon-color"></i>care@maatritvaivffertility.com</a>
+        </div>
+      </div>
+      <!-- Right Side Social Details -->
+      <div class="col-lg-4 text-center text-lg-end">
+        <div class="d-inline-flex align-items-center" style="height: 45px">
+          <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+            href="https://www.facebook.com/p/Maatritva-Fertility-IVF-Healthcare-61577218150861/" target="_blank"><i
+              class="fab fa-facebook-f fw-normal custom-icon-color"></i></a>
+          <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+            href="https://www.linkedin.com/company/maatritva-fertility" target="_blank"><i
+              class="fab fa-linkedin-in fw-normal custom-icon-color"></i></a>
+          <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
+            href="https://www.instagram.com/maatritvafertilityivf/" target="_blank"><i
+              class="fab fa-instagram fw-normal custom-icon-color"></i></a>
+          <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
+            href="https://www.youtube.com/@BestFertilityIVFclinicKolkata" target="_blank"><i
+              class="fab fa-youtube fw-normal custom-icon-color"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Topbar End -->
+
+  <!-- Navbar Start -->
+  <div class="container-fluid position-relative p-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-0 py-3 py-lg-0"
+      style="transition: background-color 0.3s ease;">
+      <a href="index.html" class="navbar-brand p-0 d-flex align-items-center mx-lg-0 mx-auto" style="gap: 10px;">
+        <img src="img/logo.png" alt="Maatritva IVF & Healthcare Logo" class="img-fluid"
+          style="max-height: 100px; object-fit: contain;" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fa fa-bars" style="color:#9d539d;"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav w-100 justify-content-center flex-wrap"
+          style="gap: 25px; font-weight: 600; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+          <a href="index.html" class="nav-item nav-link px-3"
+            style="color:#8a4f8a; transition: color 0.3s ease;">Home</a>
+          <a href="about.html" class="nav-item nav-link px-3"
+            style="color:#8a4f8a; transition: color 0.3s ease;">About</a>
+          <a href="our-doctors.html" class="nav-item nav-link active px-3"
+            style="color:#9d539d; transition: color 0.3s ease;">Our Doctors</a>
+          <a href="appointment.html" class="nav-item nav-link px-3"
+            style="color:#8a4f8a; transition: color 0.3s ease;">Appointment</a>
+          <a href="index.html#why-us" class="nav-item nav-link px-3"
+            style="color:#8a4f8a; transition: color 0.3s ease;">Services</a>
+          <a href="index.html#blog" class="nav-item nav-link px-3"
+            style="color:#8a4f8a; transition: color 0.3s ease;">Our Blog</a>
+          <a href="contact.html" class="nav-item nav-link px-3"
+            style="color:#8a4f8a; transition: color 0.3s ease;">Contact Us</a>
+        </div>
+        <div class="d-flex ms-auto align-items-center"></div>
+      </div>
+    </nav>
+  </div>
+  <!-- Navbar End -->
+
+  <!-- Page Header Start -->
+  <div class="container-fluid page-header py-3 wow fadeIn" data-wow-delay="0.1s"
+    style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/hero_image_1.png); background-position: center center; background-repeat: no-repeat; background-size: cover; padding: 160px 0 60px 0;">
+    <div class="container py-3">
+      <h1 class="display-3 text-white mb-3 animated slideInDown">Our Doctors</h1>
+      <nav aria-label="breadcrumb animated slideInDown">
+        <ol class="breadcrumb text-uppercase mb-0">
+          <li class="breadcrumb-item">
+            <a class="text-white" href="index.html">Home</a>
+          </li>
+          <li class="breadcrumb-item text-primary active" aria-current="page" style="color: #9d539d !important;">
+            Our Doctors
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- Page Header End -->
+
+  <!-- Doctors List Start -->
+  <div class="container-fluid py-5 bg-light">
+    <div class="container py-5">
+      <div class="section-title mb-5 wow fadeInUp text-center" data-wow-delay="0.1s">
+        <div class="sub-style">
+          <h4 class="sub-title px-3 mb-0" style="color: #9d539d;">Meet Our Experts</h4>
+        </div>
+        <h1 class="display-4 mb-4" style="color: #333;">Compassionate Care &amp; Medical Excellence</h1>
+        <p class="mb-0 mx-auto" style="max-width: 800px; color: #666; font-size: 1.1rem; line-height: 1.8;">
+          Our world-class doctors bring decades of specialized experience in fertility, obstetrics, and comprehensive
+          healthcare. Explore their profiles below to find the perfect medical partner for your journey.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+
+          <!-- Doctor 1: Dr. Ankita Mandal -->
+          <div class="premium-doctor-card wow fadeInUp" data-wow-delay="0.2s">
+            <div class="doctor-image-wrapper">
+              <img src="img/dr_ankita.png" alt="Dr. Ankita Mandal">
+            </div>
+            <div class="doctor-details-wrapper">
+              <h2 class="doctor-name">Dr. Ankita Mandal</h2>
+              <div class="doctor-specialty">Gynecologist, Obstetrician & Infertility Specialist</div>
+              <p class="doctor-bio">
+                Dr. Ankita Mandal offers comprehensive and compassionate care, specializing in High Risk Pregnancy,
+                Fetal Medicine, and In Vitro Fertilization (IVF). Renowned for her expertise in Laparoscopic surgeries
+                and advanced genetics.
+              </p>
+              <div class="doctor-stats">
+                <div class="stat-item">
+                  <div class="stat-icon"><i class="fas fa-medal"></i></div>
+                  <div class="stat-text">
+                    <span class="stat-value">MBBS, MD</span>
+                    <span class="stat-label">Qualifications</span>
+                  </div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-icon"><i class="fas fa-stethoscope"></i></div>
+                  <div class="stat-text">
+                    <span class="stat-value">15+ Years</span>
+                    <span class="stat-label">Experience</span>
+                  </div>
+                </div>
+              </div>
+              <a href="ankita.html" class="doctor-action-btn">
+                View Full Profile <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Doctor 2: Dr. Chhabi Ghosh -->
+          <div class="premium-doctor-card wow fadeInUp" data-wow-delay="0.4s">
+            <div class="doctor-image-wrapper">
+              <img src="img/Chhabi.jpg" alt="Dr. Chhabi Ghosh">
+            </div>
+            <div class="doctor-details-wrapper">
+              <h2 class="doctor-name">Dr. Chhabi Ghosh</h2>
+              <div class="doctor-specialty">Senior Specialist in ART & Infertility</div>
+              <p class="doctor-bio">
+                With a profoundly respected legacy in fertility treatments, Dr. Chhabi Ghosh is exceptionally skilled in
+                complex Artificial Reproductive Technologies (ART). She specializes in advanced treatments for patients
+                recovering from recurring IVF failures.
+              </p>
+              <div class="doctor-stats">
+                <div class="stat-item">
+                  <div class="stat-icon"><i class="fas fa-award"></i></div>
+                  <div class="stat-text">
+                    <span class="stat-value">ART Expert</span>
+                    <span class="stat-label">Specialization</span>
+                  </div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-icon"><i class="fas fa-user-md"></i></div>
+                  <div class="stat-text">
+                    <span class="stat-value">35+ Years</span>
+                    <span class="stat-label">Experience</span>
+                  </div>
+                </div>
+              </div>
+              <a href="chhabi.html" class="doctor-action-btn">
+                View Full Profile <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Doctor 3: Dr. Prattay Ghosh -->
+          <div class="premium-doctor-card wow fadeInUp" data-wow-delay="0.6s">
+            <div class="doctor-image-wrapper">
+              <img src="img/Prattay.png" alt="Dr. Prattay Ghosh">
+            </div>
+            <div class="doctor-details-wrapper">
+              <h2 class="doctor-name">Dr. Prattay Ghosh, MD</h2>
+              <div class="doctor-specialty">Metabolic Health & General Physician</div>
+              <p class="doctor-bio">
+                Dr. Prattay Ghosh brings critical general medicine oversight to the fertility journey. Specializing in
+                Endocrinology and Metabolic conditions (like PCOS and Thyroid Issues), he ensures your body is
+                biologically optimized for successful treatment.
+              </p>
+              <div class="doctor-stats">
+                <div class="stat-item">
+                  <div class="stat-icon"><i class="fas fa-heartbeat"></i></div>
+                  <div class="stat-text">
+                    <span class="stat-value">MD (Medicine)</span>
+                    <span class="stat-label">Qualifications</span>
+                  </div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-icon"><i class="fas fa-clinic-medical"></i></div>
+                  <div class="stat-text">
+                    <span class="stat-value">14+ Years</span>
+                    <span class="stat-label">Experience</span>
+                  </div>
+                </div>
+              </div>
+              <a href="prattayghosh.html" class="doctor-action-btn">
+                View Full Profile <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Doctor 4: Dr. Khushboo Agarwal -->
+          <div class="premium-doctor-card wow fadeInUp" data-wow-delay="0.8s">
+            <div class="doctor-image-wrapper">
+              <img src="img/khushboo.jpg" alt="Dr. Khushboo Agarwal">
+            </div>
+            <div class="doctor-details-wrapper">
+              <h2 class="doctor-name">Dr. Khushboo Agarwal</h2>
+              <div class="doctor-specialty">Consultant Fertility Specialist & Gynaecologist</div>
+              <p class="doctor-bio">
+                Bringing extensive expertise in evidence-based reproductive medicine, Dr. Khushboo Agarwal offers highly
+                tailored IVF and ICSI regimens designed to maximize success rates for complex infertility cases.
+              </p>
+              <div class="doctor-stats">
+                <div class="stat-item">
+                  <div class="stat-icon"><i class="fas fa-microscope"></i></div>
+                  <div class="stat-text">
+                    <span class="stat-value">MBBS, MS</span>
+                    <span class="stat-label">Qualifications</span>
+                  </div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-icon"><i class="fas fa-dna"></i></div>
+                  <div class="stat-text">
+                    <span class="stat-value">IVF & ICSI</span>
+                    <span class="stat-label">Specialization</span>
+                  </div>
+                </div>
+              </div>
+              <a href="khushboo.html" class="doctor-action-btn">
+                View Full Profile <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Doctors List End -->
+
+  <!-- Call to Action Start -->
+  <div class="container-fluid py-5" style="background: linear-gradient(135deg, #fdf7fd 0%, #ffffff 100%);">
+    <div class="container py-5 text-center">
+      <h2 class="display-5 mb-4" style="color: #333; font-weight: 700;">Take the First Step Towards Parenthood</h2>
+      <p class="mb-5 mx-auto" style="max-width: 600px; color: #666; font-size: 1.1rem;">
+        Our team of specialists is here to listen to your story, understand your goals, and guide you with absolute
+        clarity.
+      </p>
+      <a href="appointment.html" class="btn text-white py-3 px-5 rounded-pill"
+        style="background: #9d539d; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; font-size: 1.1rem; box-shadow: 0 4px 15px rgba(157, 83, 157, 0.4); border: 2px solid transparent; transition: all 0.3s;"
+        onmouseover="this.style.background='white'; this.style.color='#9d539d'; this.style.borderColor='#9d539d';"
+        onmouseout="this.style.background='#9d539d'; this.style.color='white'; this.style.borderColor='transparent';">
+        Book Your Consultation Today
+      </a>
+    </div>
+  </div>
+  <!-- Call to Action End -->
+
+  <!-- Footer Start -->
+  <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s" style="background: #232323;">
+    <div class="container py-5">
+      <div class="row g-5">
+        <!-- Logo & About -->
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="footer-item d-flex flex-column align-items-start">
+            <img src="img/logo.png" alt="Maatritva IVF Logo" class="mb-3 bg-white p-2 rounded"
+              style="max-width: 180px" />
+            <p class="text-white-50 mt-2">
+              <em>Maatritva IVF Fertility & Healthcare — Your Partner in the Path to Parenthood</em>
+            </p>
+            <div class="d-flex align-items-center mt-3">
+              <a class="btn-square btn text-white rounded-circle mx-1"
+                href="https://www.facebook.com/p/Maatritva-Fertility-IVF-Healthcare-61577218150861/"
+                style="background-color: #9d539d">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="btn-square btn text-white rounded-circle mx-1"
+                href="https://www.instagram.com/maatritvafertilityivf/" style="background-color: #9d539d">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a class="btn-square btn text-white rounded-circle mx-1"
+                href="https://www.youtube.com/@BestFertilityIVFclinicKolkata" style="background-color: #9d539d">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="mb-4 text-white">Quick Links</h4>
+            <a href="about.html" class="text-white-50 mb-2" style="text-decoration: none;"><i
+                class="fas fa-angle-right me-2" style="color: #9d539d"></i>About Us</a>
+            <a href="our-doctors.html" class="text-white-50 mb-2" style="text-decoration: none;"><i
+                class="fas fa-angle-right me-2" style="color: #9d539d"></i>Our Doctors</a>
+            <a href="contact.html" class="text-white-50 mb-2" style="text-decoration: none;"><i
+                class="fas fa-angle-right me-2" style="color: #9d539d"></i>Contact Us</a>
+            <a href="index.html#blog" class="text-white-50 mb-2" style="text-decoration: none;"><i
+                class="fas fa-angle-right me-2" style="color: #9d539d"></i>Our Blog</a>
+            <a href="privacy-policy.html" class="text-white-50 mb-2" style="text-decoration: none;"><i
+                class="fas fa-angle-right me-2" style="color: #9d539d"></i>Privacy Policy</a>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="footer-item d-flex flex-column">
+            <h4 class="mb-4 text-white">Contact Info</h4>
+            <a href="#" class="text-white-50 mb-2" style="text-decoration: none;"><i
+                class="fa fa-map-marker-alt me-2 mt-1" style="color: #9d539d;"></i>101, First Floor, Block-CF, Axismall
+              Multicomplex, Newtown, Kolkata 700156, WB</a>
+            <a href="mailto:care@maatritvaivffertility.com" class="text-white-50 mb-2" style="text-decoration: none;"><i
+                class="fas fa-envelope me-2" style="color: #9d539d;"></i>care@maatritvaivffertility.com</a>
+            <a href="tel:+918100343839" class="text-white-50 mb-2" style="text-decoration: none;"><i
+                class="fas fa-phone me-2" style="color: #9d539d;"></i>+91 81003 43839</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Copyright Start -->
+  <div class="container-fluid copyright py-4" style="background: #1a1a1a;">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-md-12 text-center text-white-50">
+          <span>
+            <i class="fas fa-copyright text-light me-2"></i>
+            Maatritva IVF Fertility & Healthcare — All Rights Reserved. <br />
+            Developed by Lokesh Choudhury
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Copyright End -->
+
+  <!-- JavaScript Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
