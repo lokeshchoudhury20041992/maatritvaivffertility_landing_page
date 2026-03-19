@@ -544,123 +544,62 @@
   <!-- Services End -->
 
   <!-- About Start -->
-  <!-- IVF Success Rate Calculator Section -->
-  <div class="container-fluid calculator-section bg-light py-5">
+  <!-- Meet Our Expert Specialists Start -->
+  <div class="container-fluid py-5 bg-light">
     <div class="container py-5">
-      <div class="row g-5 align-items-center">
+      <div class="section-title mb-5 wow fadeInUp text-center" data-wow-delay="0.1s">
+        <div class="sub-style">
+          <h4 class="sub-title px-3 mb-0" style="color: #9d539d;">Meet Our Experts</h4>
+        </div>
+        <h1 class="display-4 mb-4" style="color: #333;">Compassionate Care & Medical Excellence</h1>
+        <p class="mb-0 mx-auto" style="max-width: 800px; color: #666; font-size: 1.1rem; line-height: 1.8;">
+          Our world-class doctors bring decades of specialized experience in fertility, obstetrics, and comprehensive
+          healthcare. 
+        </p>
+      </div>
 
-        <!-- Left Side: Stylish Illustration / Info Box -->
-        <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
-          <div
-            class="h-100 d-flex flex-column justify-content-center align-items-center text-center p-5 rounded shadow-lg"
-            style="background: linear-gradient(135deg, #6f42c1, #9d539d); color: #fff; border-radius: 20px;">
-            <i class="fa fa-heartbeat fa-4x mb-4"></i>
-            <h2 class="fw-bold mb-3">Understand Your IVF Journey</h2>
-            <p class="mb-0">
-              Use our educational calculator to get a <strong>general idea</strong> of success rates.
-              Every patient is unique—please consult our specialists for personalized guidance.
-            </p>
+      <div class="row g-4 justify-content-center">
+        <!-- Doctor 1: Dr. Ankita Mandal -->
+        <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="team-item rounded shadow-sm bg-white h-100 overflow-hidden">
+            <div class="row g-0 h-100">
+              <div class="col-sm-5">
+                <img class="img-fluid h-100" src="img/dr_ankita.png" alt="Dr. Ankita Mandal" style="object-fit: cover;">
+              </div>
+              <div class="col-sm-7">
+                <div class="p-4">
+                  <h4 class="mb-1" style="color: #333;">Dr. Ankita Mandal</h4>
+                  <p class="text-primary mb-3" style="font-size: 0.9rem; font-weight: 600;">Gynecologist & Infertility Specialist</p>
+                  <p class="mb-4 small text-secondary">Specializing in High Risk Pregnancy, Fetal Medicine, and IVF with over 15 years of experience.</p>
+                  <a href="ankita.html" class="btn btn-sm rounded-pill px-3" style="background-color: #9d539d; color: white;">View Profile</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <!-- Right Side: Calculator Form -->
-        <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
-          <div class="section-title text-start mb-4">
-            <h4 class="sub-title pe-3 mb-0">Educational Tool</h4>
-            <h1 class="display-4 mb-3">IVF Success Rate Calculator</h1>
-            <p class="mb-4">
-              Enter your details below to estimate the success chance of an embryo transfer.
-              <strong>This is not medical advice</strong>.
-            </p>
-          </div>
-
-          <!-- Form -->
-          <form id="ivfCalculator" class="bg-white rounded shadow p-4">
-            <div class="row g-3">
-              <div class="col-md-6">
-                <label class="form-label">Age</label>
-                <input type="number" id="age" class="form-control" value="32" min="18" max="50" />
+        <!-- Doctor 2: Dr. Chhabi Ghosh -->
+        <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+          <div class="team-item rounded shadow-sm bg-white h-100 overflow-hidden">
+            <div class="row g-0 h-100">
+              <div class="col-sm-5">
+                <img class="img-fluid h-100" src="img/Chhabi.jpg" alt="Dr. Chhabi Ghosh" style="object-fit: cover;">
               </div>
-              <div class="col-md-6">
-                <label class="form-label">AMH (ng/mL)</label>
-                <input type="number" id="amh" class="form-control" value="2.5" step="0.1" />
-              </div>
-              <div class="col-md-6">
-                <label class="form-label">BMI</label>
-                <input type="number" id="bmi" class="form-control" value="22" step="0.1" />
-              </div>
-              <div class="col-md-6">
-                <label class="form-label">Previous IVF Failures</label>
-                <input type="number" id="failures" class="form-control" value="0" min="0" />
-              </div>
-              <div class="col-12 text-end">
-                <button type="button" onclick="calculateIVF()" class="btn rounded-pill px-4"
-                  style="background-color: #9d539d; color: white; border: 2px solid #9d539d; transition: all 0.3s ease;"
-                  onmouseover="
-                  this.style.backgroundColor='white';
-                  this.style.color='black';
-                " onmouseout="
-                  this.style.backgroundColor='#9d539d';
-                  this.style.color='white';
-                ">Recalculate</button>
+              <div class="col-sm-7">
+                <div class="p-4">
+                  <h4 class="mb-1" style="color: #333;">Dr. Chhabi Ghosh</h4>
+                  <p class="text-primary mb-3" style="font-size: 0.9rem; font-weight: 600;">Senior Specialist in ART</p>
+                  <p class="mb-4 small text-secondary">Exceptional expertise in complex ART with over 35 years of clinical excellence.</p>
+                  <a href="chhabi.html" class="btn btn-sm rounded-pill px-3" style="background-color: #9d539d; color: white;">View Profile</a>
+                </div>
               </div>
             </div>
-          </form>
-
-          <!-- Result Box -->
-          <div class="result-box bg-light rounded mt-4 p-4 shadow-sm">
-            <h5 class="mb-3" style="color: #9d539d;">Your Estimate</h5>
-            <p class="mb-2">Estimated chance per single embryo transfer:</p>
-            <h3 id="ivfResult" class="fw-bold">47% — 59%</h3>
-            <ul class="text-secondary mt-3">
-              <li>Optimized stimulation and eSET can influence outcomes.</li>
-              <li>Consider PGT-A in selected cases; discuss with your specialist.</li>
-              <li>Cumulative live birth rises over multiple transfers.</li>
-            </ul>
           </div>
-
-          <p class="mt-3 small text-muted">
-            Disclaimer: Informational only; individual results vary. Please consult your fertility specialist for
-            personalized guidance.
-          </p>
         </div>
       </div>
     </div>
   </div>
-
-  <!-- IVF Calculator Script -->
-  <script>
-    function calculateIVF() {
-      let age = parseInt(document.getElementById("age").value) || 32;
-      let amh = parseFloat(document.getElementById("amh").value) || 2.5;
-      let bmi = parseFloat(document.getElementById("bmi").value) || 22;
-      let failures = parseInt(document.getElementById("failures").value) || 0;
-
-      // Base success % (for age under 35)
-      let minRate = 55, maxRate = 65;
-
-      // Adjust by age
-      if (age > 35) { minRate -= (age - 35) * 1.5; maxRate -= (age - 35) * 1.2; }
-      if (age > 40) { minRate -= 10; maxRate -= 8; }
-
-      // Adjust by AMH
-      if (amh < 1.0) { minRate -= 8; maxRate -= 6; }
-      else if (amh > 4.0) { minRate += 3; maxRate += 2; }
-
-      // Adjust by BMI
-      if (bmi < 18 || bmi > 30) { minRate -= 5; maxRate -= 5; }
-
-      // Adjust by previous failures
-      minRate -= failures * 2;
-      maxRate -= failures * 1.5;
-
-      // Clamp values
-      minRate = Math.max(5, Math.min(80, minRate));
-      maxRate = Math.max(minRate + 5, Math.min(90, maxRate));
-
-      document.getElementById("ivfResult").innerText = `${Math.round(minRate)}% — ${Math.round(maxRate)}%`;
-    }
-  </script>
+  <!-- Meet Our Expert Specialists End -->
 
 
 
@@ -1429,6 +1368,7 @@
     gtag('config', 'G-DWJVT55ZDF');
   </script>
 
+  <script src="js/supabase.min.js"></script>
   <script src="js/make_webhook.js"></script>
 
   <!-- Template Javascript -->
