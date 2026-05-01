@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
-<!--
-  Sitemap for Maatritva IVF Fertility & Healthcare
-  Website: https://maatritvaivffertility.com
-  Generated: 2025-02-25
-  Optimized for: Google Search Bot, ChatGPT Crawler (GPTBot), Bingbot, Gemini AI
--->
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>https://maatritva-backend-production.up.railway.app/api/v1/seo/sitemap.xml</loc>
-    <lastmod>2026-03-02</lastmod>
-  </sitemap>
-
-  <!-- ===== CORE PAGES ===== -->
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- 
+    Sitemap for Maatritva IVF Fertility & Healthcare
+    Website: https://maatritvaivffertility.com
+    Generated: 2026-05-02
+   -->
+  <!--  ========== CORE PAGES ==========  -->
   <url>
     <loc>https://maatritvaivffertility.com/</loc>
-    <lastmod>2026-03-02</lastmod>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -28,155 +21,150 @@
       <image:title>Maatritva IVF Logo</image:title>
     </image:image>
   </url>
-
   <url>
-    <loc>https://maatritvaivffertility.com/about.html</loc>
-    <lastmod>2026-03-02</lastmod>
+    <loc>https://maatritvaivffertility.com/about</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://maatritvaivffertility.com/appointment.html</loc>
-    <lastmod>2025-02-25</lastmod>
+    <loc>https://maatritvaivffertility.com/our-doctors</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://maatritvaivffertility.com/appointment</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <url>
-    <loc>https://maatritvaivffertility.com/contact.html</loc>
-    <lastmod>2025-02-25</lastmod>
+    <loc>https://maatritvaivffertility.com/contact</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://maatritvaivffertility.com/privacy-policy.html</loc>
-    <lastmod>2025-01-01</lastmod>
+    <loc>https://maatritvaivffertility.com/privacy-policy</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-
-  <!-- ===== SEO PILLAR PAGE (Highest Priority) ===== -->
-
+  <!--  ========== DOCTOR PROFILE PAGES ==========  -->
   <url>
-    <loc>https://maatritvaivffertility.com/top-10-ivf-centres-in-kolkata.html</loc>
-    <lastmod>2025-02-25</lastmod>
+    <loc>https://maatritvaivffertility.com/ankita</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.7</priority>
     <image:image>
       <image:loc>https://maatritvaivffertility.com/img/dr_ankita.png</image:loc>
-      <image:title>Best IVF Centre in Kolkata – Maatritva IVF</image:title>
+      <image:title>Dr. Ankita Mandal - Gynecologist, Obstetrician &amp; Infertility Specialist</image:title>
     </image:image>
   </url>
-
-  <!-- ===== TOPICAL CLUSTER PAGES ===== -->
-
   <url>
-    <loc>https://maatritvaivffertility.com/ivf-cost-kolkata.html</loc>
-    <lastmod>2025-02-25</lastmod>
+    <loc>https://maatritvaivffertility.com/chhabi</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://maatritvaivffertility.com/prattayghosh</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!--  ========== SEO / SERVICE PAGES ==========  -->
+  <url>
+    <loc>https://maatritvaivffertility.com/best_ivf_centre_in_kolkata</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <url>
-    <loc>https://maatritvaivffertility.com/ivf-success-rate-kolkata.html</loc>
-    <lastmod>2025-02-25</lastmod>
+    <loc>https://maatritvaivffertility.com/ivf-cost-kolkata</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <url>
-    <loc>https://maatritvaivffertility.com/ivf-treatment-process.html</loc>
-    <lastmod>2025-02-25</lastmod>
+    <loc>https://maatritvaivffertility.com/ivf-success-rate-kolkata</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://maatritvaivffertility.com/ivf-treatment-process</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://maatritvaivffertility.com/why-choose-maatritva.html</loc>
-    <lastmod>2025-02-25</lastmod>
+    <loc>https://maatritvaivffertility.com/top-10-ivf-centres-in-kolkata</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://maatritvaivffertility.com/why-choose-maatritva</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- ===== DOCTOR PROFILE PAGES ===== -->
-
+  <!--  ========== BLOG PAGES ==========  -->
   <url>
-    <loc>ankita.html</loc>
-    <lastmod>2025-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://maatritvaivffertility.com/chhabi.html</loc>
-    <lastmod>2025-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://maatritvaivffertility.com/img/Chhabi.jpg</image:loc>
-      <image:title>Dr. Chhabi Ghosh – Senior Fertility Specialist, Maatritva IVF Kolkata</image:title>
-    </image:image>
-  </url>
-
-
-  <!-- ===== BLOG / ARTICLE PAGES ===== -->
-
-  <url>
-    <loc>https://maatritvaivffertility.com/article-1.html</loc>
-    <lastmod>2025-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://maatritvaivffertility.com/article-2.html</loc>
-    <lastmod>2025-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://maatritvaivffertility.com/article-3.html</loc>
-    <lastmod>2025-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://maatritvaivffertility.com/blog-ivf-cost-breakdown.html</loc>
-    <lastmod>2025-02-25</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://maatritvaivffertility.com/blog-view</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <url>
-    <loc>https://maatritvaivffertility.com/blog-ivf-success-rate-by-age.html</loc>
-    <lastmod>2025-02-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://maatritvaivffertility.com/blog-how-to-choose-ivf-centre.html</loc>
-    <lastmod>2025-02-25</lastmod>
+    <loc>https://maatritvaivffertility.com/blog-how-to-choose-ivf-centre</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
   <url>
-    <loc>https://maatritvaivffertility.com/blog-ivf-vs-iui.html</loc>
-    <lastmod>2025-02-25</lastmod>
+    <loc>https://maatritvaivffertility.com/blog-ivf-cost-breakdown</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
   <url>
-    <loc>https://maatritvaivffertility.com/blog-ivf-myths.html</loc>
-    <lastmod>2025-02-25</lastmod>
+    <loc>https://maatritvaivffertility.com/blog-ivf-myths</loc>
+    <lastmod>2026-05-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-</sitemapindex>
+  <url>
+    <loc>https://maatritvaivffertility.com/blog-ivf-success-rate-by-age</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://maatritvaivffertility.com/blog-ivf-vs-iui</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!--  ========== ARTICLE PAGES ==========  -->
+  <url>
+    <loc>https://maatritvaivffertility.com/article-1</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://maatritvaivffertility.com/article-2</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://maatritvaivffertility.com/article-3</loc>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
