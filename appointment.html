@@ -32,6 +32,27 @@
   <link rel="shortcut icon" href="https://maatritvaivffertility.com/img/logo.png" type="image/png">
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
+  <!-- Schema: Breadcrumb -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://maatritvaivffertility.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Appointment"
+      }
+    ]
+  }
+  </script>
+
   <!-- Google Web Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -154,7 +175,7 @@
 <body>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KBZWZPMR" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+      style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <!-- Spinner Start -->
   <div id="spinner"
@@ -168,7 +189,7 @@
   <!-- Navbar Start -->
   <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-light bg-white px-0 py-3 py-lg-0"
-      style="transition: background-color 0.3s ease">
+      style="transition: background-color 0.3s ease" aria-label="Main">
       <a href="appointment.html" class="navbar-brand p-0 d-flex align-items-center mx-lg-0 mx-auto" style="gap: 10px">
         <img src="img/logo.png" alt="Maatritva IVF & Healthcare Logo" class="img-fluid"
           style="max-height: 100px; object-fit: contain" />
@@ -314,8 +335,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-floating">
-                    <input type="date" class="form-control" name="visit_date" id="date"
-                      placeholder="Willing Date of Visit" required />
+                    <input type="date" class="form-control" name="visit_date" id="date" required />
                     <label for="date">Willing Date of Visit</label>
                   </div>
                 </div>
@@ -452,7 +472,7 @@
                   What's the difference between IVF and ICSI?
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              <div id="collapseOne" role="region" class="accordion-collapse collapse" aria-labelledby="headingOne"
                 data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
                   In standard <strong>IVF</strong>, eggs and sperm are mixed
@@ -470,7 +490,7 @@
                   How long does an IVF process take?
                 </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              <div id="collapseTwo" role="region" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                 data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
                   A typical IVF cycle, from the start of ovarian stimulation
@@ -487,7 +507,7 @@
                   Is egg freezing a safe and effective option?
                 </button>
               </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              <div id="collapseThree" role="region" class="accordion-collapse collapse" aria-labelledby="headingThree"
                 data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
                   Yes, egg freezing using the vitrification method is very
@@ -504,7 +524,7 @@
                   What are the main risks associated with ART?
                 </button>
               </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              <div id="collapseFour" role="region" class="accordion-collapse collapse" aria-labelledby="headingFour"
                 data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
                   Risks can include Ovarian Hyperstimulation Syndrome (OHSS),
@@ -523,7 +543,7 @@
                   How is male infertility treated?
                 </button>
               </h2>
-              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+              <div id="collapseFive" role="region" class="accordion-collapse collapse" aria-labelledby="headingFive"
                 data-bs-parent="#faqAccordion">
                 <div class="accordion-body">
                   Male infertility is treatable through various methods,
