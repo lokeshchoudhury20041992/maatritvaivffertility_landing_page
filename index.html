@@ -312,6 +312,127 @@
       color: #9d539d !important;
       border-color: #ffffff !important;
     }
+    /* Redesigned Testimonial Section Styles */
+    .testimonial {
+      background: #fdf7fd !important;
+      padding: 100px 0 !important;
+    }
+
+    .testimonial .section-title h1,
+    .testimonial .section-title p {
+      color: #2c3e50 !important;
+    }
+
+    .testimonial .section-title .sub-title {
+      background: #fdf5fc !important;
+      color: #9d539d !important;
+      border-radius: 30px !important;
+      box-shadow: 0 4px 10px rgba(157, 83, 157, 0.1) !important;
+    }
+
+    .testimonial-item {
+      padding: 30px 15px !important;
+    }
+
+    .testimonial-inner {
+      background: #ffffff !important;
+      border-radius: 20px !important;
+      box-shadow: 0 10px 30px rgba(157, 83, 157, 0.08) !important;
+      padding: 40px !important;
+      max-width: 800px !important;
+      margin: 0 auto !important;
+      position: relative !important;
+      transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+      border: 1px solid rgba(157, 83, 157, 0.05) !important;
+    }
+
+    .testimonial-inner:hover {
+      transform: translateY(-5px) !important;
+      box-shadow: 0 15px 40px rgba(157, 83, 157, 0.12) !important;
+    }
+
+    .testimonial-inner-img {
+      width: 100px !important;
+      height: 100px !important;
+      margin: -90px auto 25px auto !important;
+      border: 6px solid #fff !important;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
+      border-radius: 50% !important;
+      overflow: hidden !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      background: #fff !important;
+    }
+
+    .testimonial-inner-img img {
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+      object-position: center !important;
+      border-radius: 50% !important;
+    }
+
+    .testimonial-inner p.fs-7 {
+      color: #555 !important;
+      font-style: italic !important;
+      line-height: 1.8 !important;
+      margin-bottom: 25px !important;
+      font-size: 1.1rem !important;
+    }
+
+    .testimonial-inner h5 {
+      color: #2c3e50 !important;
+      font-weight: 700 !important;
+      margin-bottom: 5px !important;
+    }
+
+    .testimonial-inner .text-white-50 {
+      color: #888 !important;
+      font-size: 0.9rem !important;
+    }
+
+    .testimonial-inner .text-secondary {
+      color: #f1c40f !important; /* Gold stars */
+    }
+
+    /* Elegant Owl Carousel Navigation */
+    .testimonial-carousel .owl-stage-outer {
+      padding-top: 60px !important;
+      margin-top: -60px !important;
+      overflow: visible !important; /* Try allowing visible overflow */
+    }
+
+    /* Fallback if overflow:visible breaks things, we use the padding trick */
+    .testimonial-carousel .owl-stage {
+      padding-top: 10px !important;
+    }
+
+    .testimonial-carousel .owl-nav .owl-prev,
+    .testimonial-carousel .owl-nav .owl-next {
+      background: #fff !important;
+      color: #9d539d !important;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05) !important;
+      width: 50px !important;
+      height: 50px !important;
+      font-size: 18px !important;
+      opacity: 0.8 !important;
+    }
+
+    .testimonial-carousel .owl-nav .owl-prev:hover,
+    .testimonial-carousel .owl-nav .owl-next:hover {
+      background: #9d539d !important;
+      color: #fff !important;
+      opacity: 1 !important;
+    }
+
+    .testimonial-carousel .owl-dots .owl-dot {
+      border-color: #9d539d !important;
+    }
+
+    .testimonial-carousel .owl-dots .owl-dot.active {
+      background: #9d539d !important;
+    }
   </style>
 </head>
 
@@ -1007,15 +1128,14 @@
   <!-- Team End -->
 
   <!-- Testimonial Start -->
-  <!-- Testimonial Start -->
-  <div class="container-fluid testimonial py-5 wow zoomInDown" data-wow-delay="0.1s">
+  <div class="container-fluid testimonial py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
       <div class="section-title mb-5 text-center">
-        <div class="sub-style">
-          <h4 class="sub-title text-white px-3 mb-0">Testimonials</h4>
+        <div class="sub-style justify-content-center mb-3">
+          <h4 class="sub-title px-4 py-2 mb-0">Testimonials</h4>
         </div>
-        <h1 class="display-3 mb-4 text-white">What Our Patients Say</h1>
-        <p class="text-white-50">
+        <h1 class="display-4 fw-bold mb-4">What Our Patients Say</h1>
+        <p class="mb-0 text-muted mx-auto" style="max-width: 600px;">
           Heartfelt stories from families who trusted us in their journey towards parenthood and women’s health.
         </p>
       </div>
@@ -1024,21 +1144,21 @@
 
         <!-- Testimonial 1 -->
         <div class="testimonial-item">
-          <div class="testimonial-inner p-5">
-            <div class="testimonial-inner-img mb-4">
+          <div class="testimonial-inner">
+            <div class="testimonial-inner-img">
               <img
                 src="https://plus.unsplash.com/premium_photo-1682089787056-9ac0c78a2ac2?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aW5kaWFuJTIwcGVvcGxlfGVufDB8fDB8fHww"
-                class="img-fluid rounded-circle" alt="Patient testimonial" />
+                alt="Patient testimonial" />
             </div>
-            <p class="text-white fs-7">
+            <p class="fs-7">
               “After struggling for 8 years, we finally found hope at Maatritva Fertility.
               The doctors treated us with so much compassion and guided us through IVF step by step.
               Today, we are blessed with twins — it feels like a miracle come true.”
             </p>
             <div class="text-center">
-              <h5 class="mb-2">Arjun Das</h5>
-              <p class="mb-2 text-white-50">Kolkata, India</p>
-              <div class="d-flex justify-content-center">
+              <h5 class="mb-1">Arjun Das</h5>
+              <p class="mb-3 text-white-50">Kolkata, India</p>
+              <div class="d-flex justify-content-center gap-1">
                 <i class="fas fa-star text-secondary"></i>
                 <i class="fas fa-star text-secondary"></i>
                 <i class="fas fa-star text-secondary"></i>
@@ -1051,20 +1171,20 @@
 
         <!-- Testimonial 2 -->
         <div class="testimonial-item">
-          <div class="testimonial-inner p-5">
-            <div class="testimonial-inner-img mb-4">
+          <div class="testimonial-inner">
+            <div class="testimonial-inner-img">
               <img src="https://t3.ftcdn.net/jpg/03/67/70/92/360_F_367709239_wWNdUSrtEvG6psATqu1sO9AkKUXALpR8.jpg"
-                class="img-fluid rounded-circle" alt="Patient testimonial" />
+                alt="Patient testimonial" />
             </div>
-            <p class="text-white fs-7">
+            <p class="fs-7">
               “My wife’s high-risk pregnancy was handled with absolute care.
               The entire team was available day and night, ensuring both mother and baby remained safe.
               We will always be grateful for their dedication and expertise.”
             </p>
             <div class="text-center">
-              <h5 class="mb-2">Ankit Sharma</h5>
-              <p class="mb-2 text-white-50">Kolkata, India</p>
-              <div class="d-flex justify-content-center">
+              <h5 class="mb-1">Ankit Sharma</h5>
+              <p class="mb-3 text-white-50">Kolkata, India</p>
+              <div class="d-flex justify-content-center gap-1">
                 <i class="fas fa-star text-secondary"></i>
                 <i class="fas fa-star text-secondary"></i>
                 <i class="fas fa-star text-secondary"></i>
@@ -1077,21 +1197,21 @@
 
         <!-- Testimonial 3 -->
         <div class="testimonial-item">
-          <div class="testimonial-inner p-5">
-            <div class="testimonial-inner-img mb-4">
+          <div class="testimonial-inner">
+            <div class="testimonial-inner-img">
               <img
                 src="https://media.istockphoto.com/id/1320811419/photo/head-shot-portrait-of-confident-successful-smiling-indian-businesswoman.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=bCUTB8vd8MnzZFIq-x645-SmLNk2sQzOvOvWCPGDfZ4="
-                class="img-fluid rounded-circle" alt="Patient testimonial" />
+                alt="Patient testimonial" />
             </div>
-            <p class="text-white fs-7">
+            <p class="fs-7">
               “I came for fertility treatment but also received incredible guidance on managing PCOS and lifestyle.
               The holistic approach, including diet and emotional support, made me feel confident and cared for
               throughout my journey.”
             </p>
             <div class="text-center">
-              <h5 class="mb-2">Madhuri Sen</h5>
-              <p class="mb-2 text-white-50">Kolkata, India</p>
-              <div class="d-flex justify-content-center">
+              <h5 class="mb-1">Madhuri Sen</h5>
+              <p class="mb-3 text-white-50">Kolkata, India</p>
+              <div class="d-flex justify-content-center gap-1">
                 <i class="fas fa-star text-secondary"></i>
                 <i class="fas fa-star text-secondary"></i>
                 <i class="fas fa-star text-secondary"></i>
