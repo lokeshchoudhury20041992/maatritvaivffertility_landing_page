@@ -315,4 +315,4 @@ When a user submits a form, the data is pushed concurrently to two destinations 
 
 ---
 
-*Developed by Tag Easy. SEO strategy by Maatritva Marketing Team.*
+*Developed by Lokesh Choudhury. SEO strategy by Maatritva Marketing Team.*
