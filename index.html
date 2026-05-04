@@ -277,6 +277,41 @@
     .modern-blog-read:hover i {
       transform: translateX(5px);
     }
+
+    /* ---------------------------------------------------
+       HOVER REFINEMENTS
+    --------------------------------------------------- */
+
+    /* 1. WHY CHOOSE US: Remove background hover expansion and bottom line */
+    #why-us .service-item .service-content::before {
+      display: none !important; /* Completely remove the purple bottom line */
+    }
+
+    /* Ensure text remains dark and visible on hover */
+    #why-us .service-item:hover .service-content h5,
+    #why-us .service-item:hover .service-content p {
+      color: #333 !important;
+    }
+
+    /* 2. OUR EXPERTISE: Fix text visibility on hover (turn white) */
+    #services .service-item:hover .service-content::before {
+      background: #9d539d !important;
+      height: 100% !important;
+    }
+
+    #services .service-item:hover .service-content h5,
+    #services .service-item:hover .service-content p {
+      color: #ffffff !important;
+      position: relative;
+      z-index: 10;
+    }
+
+    /* Fix button visibility on hover for Expertise cards */
+    #services .service-item:hover .btn-primary {
+      background-color: #ffffff !important;
+      color: #9d539d !important;
+      border-color: #ffffff !important;
+    }
   </style>
 </head>
 
@@ -341,8 +376,9 @@
       <!-- Right Side Social Links -->
       <div class="col-lg-4 text-center text-lg-end">
         <div class="d-flex align-items-center justify-content-end">
-          <a href="https://www.facebook.com/p/Maatritva-Fertility-IVF-Healthcare-61577218150861/" target="_blank" rel="noopener noreferrer"
-            class="btn btn-light btn-square border rounded-circle nav-fill me-3" aria-label="Facebook">
+          <a href="https://www.facebook.com/p/Maatritva-Fertility-IVF-Healthcare-61577218150861/" target="_blank"
+            rel="noopener noreferrer" class="btn btn-light btn-square border rounded-circle nav-fill me-3"
+            aria-label="Facebook">
             <i class="fab fa-facebook-f"></i>
           </a>
           <a href="https://www.instagram.com/maatritvafertilityivf/" target="_blank" rel="noopener noreferrer"
@@ -422,7 +458,7 @@
             Fertility &amp; Wellness Centre
           </h5>
           <h1 class="display-1 text-capitalize text-white mb-4">
-            Maatritva IVF &amp; Healthcare
+            Maatritva IVF And Healthcare
           </h1>
           <p class="mb-5 fs-5">
             A dedicated clinic for fertility, IVF, and holistic wellness in
@@ -596,7 +632,8 @@
             </div>
             <div class="service-content ms-3">
               <h5 class="mb-2">Globally Trained Specialists</h5>
-              <p class="mb-0">Doctors with international fellowships in fertility, endocrinology &amp; critical care.</p>
+              <p class="mb-0">Doctors with international fellowships in fertility, endocrinology &amp; critical care.
+              </p>
             </div>
           </div>
         </div>
@@ -618,7 +655,8 @@
             </div>
             <div class="service-content ms-3">
               <h5 class="mb-2">State-of-the-Art Lab</h5>
-              <p class="mb-0">ISO &amp; ICMR-certified ART lab with advanced embryology &amp; genetic testing facilities.</p>
+              <p class="mb-0">ISO &amp; ICMR-certified ART lab with advanced embryology &amp; genetic testing
+                facilities.</p>
             </div>
           </div>
         </div>
@@ -669,9 +707,12 @@
               <div class="col-sm-7">
                 <div class="p-4">
                   <h4 class="mb-1" style="color: #333;">Dr. Ankita Mandal</h4>
-                  <p class="text-primary mb-3" style="font-size: 0.9rem; font-weight: 600;">Gynecologist &amp; Infertility Specialist</p>
-                  <p class="mb-4 small text-secondary">Specializing in High Risk Pregnancy, Fetal Medicine, and IVF with over 15 years of experience.</p>
-                  <a href="ankita.html" class="btn btn-sm rounded-pill px-3" style="background-color: #9d539d; color: white;">View Profile</a>
+                  <p class="text-primary mb-3" style="font-size: 0.9rem; font-weight: 600;">Gynecologist &amp;
+                    Infertility Specialist</p>
+                  <p class="mb-4 small text-secondary">Specializing in High Risk Pregnancy, Fetal Medicine, and IVF with
+                    over 15 years of experience.</p>
+                  <a href="ankita.html" class="btn btn-sm rounded-pill px-3"
+                    style="background-color: #9d539d; color: white;">View Profile</a>
                 </div>
               </div>
             </div>
@@ -689,8 +730,10 @@
                 <div class="p-4">
                   <h4 class="mb-1" style="color: #333;">Dr. Chhabi Ghosh</h4>
                   <p class="text-primary mb-3" style="font-size: 0.9rem; font-weight: 600;">Senior Specialist in ART</p>
-                  <p class="mb-4 small text-secondary">Exceptional expertise in complex ART with over 35 years of clinical excellence.</p>
-                  <a href="chhabi.html" class="btn btn-sm rounded-pill px-3" style="background-color: #9d539d; color: white;">View Profile</a>
+                  <p class="mb-4 small text-secondary">Exceptional expertise in complex ART with over 35 years of
+                    clinical excellence.</p>
+                  <a href="chhabi.html" class="btn btn-sm rounded-pill px-3"
+                    style="background-color: #9d539d; color: white;">View Profile</a>
                 </div>
               </div>
             </div>
@@ -771,8 +814,8 @@
       <div class="modal-content rounded-0">
         <div class="modal-body p-0">
           <div class="ratio ratio-16x9">
-            <iframe class="embed-responsive-item" src="about:blank" id="video" allowfullscreen allowscriptaccess="always"
-              allow="autoplay" title="YouTube video player"></iframe>
+            <iframe class="embed-responsive-item" src="about:blank" id="video" allowfullscreen
+              allowscriptaccess="always" allow="autoplay" title="YouTube video player"></iframe>
           </div>
         </div>
       </div>
@@ -840,8 +883,7 @@
                 </div>
                 <div class="col-xl-6">
                   <input type="date" id="visit_date" name="visit_date"
-                    class="form-control py-3 bg-transparent text-white" style="border-color: #9d539d;"
-                    required>
+                    class="form-control py-3 bg-transparent text-white" style="border-color: #9d539d;" required>
                 </div>
                 <div class="col-12">
                   <input type="text" id="issue" name="issue" class="form-control py-3 bg-transparent text-white"
@@ -1183,7 +1225,8 @@
                 </div>
               </div>
 
-              <a href="article-2.html" class="h4 modern-blog-title fw-bold mb-3">Managing PCOS: Lifestyle &amp; Fertility
+              <a href="article-2.html" class="h4 modern-blog-title fw-bold mb-3">Managing PCOS: Lifestyle &amp;
+                Fertility
                 Care</a>
 
               <p class="text-muted mb-4" style="flex: 1; font-size: 0.95rem; line-height: 1.6;">Discover holistic
@@ -1290,7 +1333,9 @@
               <div id="collapseOne" class="accordion-collapse collapse show" role="region" aria-labelledby="headingOne"
                 data-bs-parent="#accordionFAQ">
                 <div class="accordion-body text-secondary">
-                  Our primary fertility center is centrally located in Newtown, Kolkata. We proudly serve patients from across the city, including major neighborhoods like Newtown, Ballygunge, Dum Dum, Garia, and surrounding areas. Our multi-nodal network ensures you have access to expert care close to home.
+                  Our primary fertility center is centrally located in Newtown, Kolkata. We proudly serve patients from
+                  across the city, including major neighborhoods like Newtown, Ballygunge, Dum Dum, Garia, and
+                  surrounding areas. Our multi-nodal network ensures you have access to expert care close to home.
                 </div>
               </div>
             </div>
@@ -1305,7 +1350,9 @@
               <div id="collapseTwo" class="accordion-collapse collapse" role="region" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionFAQ">
                 <div class="accordion-body text-secondary">
-                  You can easily book a free consultation by calling our dedicated helpline numbers (+91 8100 343839 / +91 8100 353839), connecting with us via WhatsApp, or filling out the appointment form directly on our website.
+                  You can easily book a free consultation by calling our dedicated helpline numbers (+91 8100 343839 /
+                  +91 8100 353839), connecting with us via WhatsApp, or filling out the appointment form directly on our
+                  website.
                 </div>
               </div>
             </div>
@@ -1361,11 +1408,13 @@
                 <i class="fab fa-facebook-f"></i>
               </a>
               <a class="btn-square btn text-white rounded-circle mx-1"
-                href="https://www.instagram.com/maatritvafertilityivf/" style="background-color:#9d539d;" aria-label="Instagram">
+                href="https://www.instagram.com/maatritvafertilityivf/" style="background-color:#9d539d;"
+                aria-label="Instagram">
                 <i class="fab fa-instagram"></i>
               </a>
               <a class="btn-square btn text-white rounded-circle mx-1"
-                href="https://www.youtube.com/@BestFertilityIVFclinicKolkata" style="background-color:#9d539d;" aria-label="YouTube">
+                href="https://www.youtube.com/@BestFertilityIVFclinicKolkata" style="background-color:#9d539d;"
+                aria-label="YouTube">
                 <i class="fab fa-youtube"></i>
               </a>
             </div>
