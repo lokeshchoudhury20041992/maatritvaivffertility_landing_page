@@ -1442,24 +1442,60 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  background: #9d539d;
-  color: #ffffff !important;
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  font-size: 1.12rem;
-  line-height: 1;
-  margin: 0;
-  padding: 0;
+  border-radius: 12px;
+  background: rgba(157, 83, 157, 0.1);
+  color: #9d539d !important;
+  border: 1px solid rgba(157, 83, 157, 0.15);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 1.2rem;
+  position: relative;
+  z-index: 1;
   overflow: hidden;
 }
 
+.footer-social-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #9d539d;
+  transform: translateY(100%);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: -1;
+}
+
 .footer-social-link:hover {
-  background: #8a438a;
   color: #ffffff !important;
-  transform: translateY(-5px) rotate(360deg);
-  box-shadow: 0 10px 20px rgba(157, 83, 157, 0.4);
-  border-color: #9d539d;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(157, 83, 157, 0.2);
+  border-color: transparent;
+}
+
+.footer-social-link:hover::before {
+  transform: translateY(0);
+}
+
+/* Specific Platform Colors on Hover */
+.footer-social-link[aria-label="Facebook"]:hover::before {
+  background: #1877F2;
+}
+
+.footer-social-link[aria-label="Instagram"]:hover::before {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.footer-social-link[aria-label="YouTube"]:hover::before {
+  background: #FF0000;
+}
+
+.footer .footer-social-link i {
+  transition: transform 0.3s ease;
+}
+
+.footer-social-link:hover i {
+  transform: scale(1.1);
 }
 
 .footer .footer-social-link i,
@@ -1468,7 +1504,6 @@ a:hover {
 .footer .footer-item .btn-md-square i,
 .footer .footer-item .btn-lg-square i {
   display: block;
-  color: #ffffff !important;
   font-size: 1.08rem;
   line-height: 1;
   margin: 0;
@@ -1536,6 +1571,20 @@ a:hover {
 
 .footer .footer-item a:not(.footer-social-link):not(.btn-square):not(.btn-sm-square):not(.btn-md-square):not(.btn-lg-square):hover i {
   color: #ffffff;
+}
+
+.footer-logo {
+  height: 80px;
+  width: auto;
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.footer-logo:hover {
+  transform: scale(1.05);
 }
 
 /*** Footer End ***/

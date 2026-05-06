@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <!-- 
+  <!--
     Sitemap for Maatritva IVF Fertility & Healthcare
     Website: https://maatritvaivffertility.com
-    Generated: 2026-05-02
+    Generated: 2026-05-03
    -->
-  <!--  ========== CORE PAGES ==========  -->
+  <!-- ========== CORE PAGES ========== -->
   <url>
     <loc>https://maatritvaivffertility.com/</loc>
-    <lastmod>2026-05-02</lastmod>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -22,39 +22,39 @@
     </image:image>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/about</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/about.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/our-doctors</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/our-doctors.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/appointment</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/appointment.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/contact</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/contact.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/privacy-policy</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/privacy-policy.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-  <!--  ========== DOCTOR PROFILE PAGES ==========  -->
+  <!-- ========== DOCTOR PROFILE PAGES ========== -->
   <url>
-    <loc>https://maatritvaivffertility.com/ankita</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/ankita.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -63,107 +63,111 @@
     </image:image>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/chhabi</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/chhabi.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/prattayghosh</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/prattayghosh.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <!--  ========== SEO / SERVICE PAGES ==========  -->
+  <!-- ========== SEO / SERVICE PAGES ========== -->
   <url>
-    <loc>https://maatritvaivffertility.com/best_ivf_centre_in_kolkata</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/best_ivf_centre_in_kolkata.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/ivf-cost-kolkata</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/ivf-cost-kolkata.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/ivf-success-rate-kolkata</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/ivf-success-rate-kolkata.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/ivf-treatment-process</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/ivf-treatment-process.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/top-10-ivf-centres-in-kolkata</loc>
-    <lastmod>2026-05-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://maatritvaivffertility.com/top-10-ivf-centres-in-kolkata.html</loc>
+    <lastmod>2026-05-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://maatritvaivffertility.com/img/dr_ankita.png</image:loc>
+      <image:title>Top 10 IVF Centres in Kolkata 2026 - Maatritva IVF</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/why-choose-maatritva</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/why-choose-maatritva.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <!--  ========== BLOG PAGES ==========  -->
+  <!-- ========== BLOG PAGES ========== -->
   <url>
-    <loc>https://maatritvaivffertility.com/blog-view</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/blog-view.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/blog-how-to-choose-ivf-centre</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/blog-how-to-choose-ivf-centre.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/blog-ivf-cost-breakdown</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/blog-ivf-cost-breakdown.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/blog-ivf-myths</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/blog-ivf-myths.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/blog-ivf-success-rate-by-age</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/blog-ivf-success-rate-by-age.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/blog-ivf-vs-iui</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/blog-ivf-vs-iui.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <!--  ========== ARTICLE PAGES ==========  -->
+  <!-- ========== ARTICLE PAGES ========== -->
   <url>
-    <loc>https://maatritvaivffertility.com/article-1</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/article-1.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/article-2</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/article-2.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://maatritvaivffertility.com/article-3</loc>
-    <lastmod>2026-05-02</lastmod>
+    <loc>https://maatritvaivffertility.com/article-3.html</loc>
+    <lastmod>2026-05-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
