@@ -1,4 +1,4 @@
-# Maatritva IVF Fertility & Healthcare — Website
+# Maatritva IVF Fertility and Healthcare — Website
 
 > **Live URL:** <https://maatritvaivffertility.com>  
 > **Clinic Address:** 101, First Floor, Block-CF, Axismall Multicomplex, Newtown, Kolkata 700156  
@@ -94,7 +94,7 @@ maatritvaivffertility_landing_page-main/
 | Page | URL | Purpose | SEO Target |
 | --- | --- | --- | --- |
 | Homepage | `/` | Main landing page | Best IVF Centre Kolkata |
-| About | `/about.html` | Clinic story & mission | About Maatritva IVF |
+| About | `/about.html` | Clinic story and mission | About Maatritva IVF |
 | Appointment | `/appointment.html` | Book consultation | Book IVF appointment Kolkata |
 | Contact | `/contact.html` | Contact info + map | IVF clinic Newtown Kolkata |
 
@@ -119,9 +119,9 @@ maatritvaivffertility_landing_page-main/
 | 5 | IVF Myths Busted | `/blog-ivf-myths.html` | Trust |
 | 6 | Can IVF Guarantee Success? | `/article-1.html` | Education |
 
-**Remaining 14 topics (Phase 2 & 3):**  
+**Remaining 14 topics (Phase 2 and 3):**  
 
-- IVF EMI & Payment Options, Is Low-Cost IVF Safe?, IVF Lab Quality Standards, Success After Failed IVF, ICSI vs IVF, Blastocyst Transfer, Male Infertility Treatment, Low AMH & IVF, PCOS & IVF Success, Questions to Ask Before IVF, When to See a Fertility Specialist, Signs You Need IVF, Steps of IVF Process, Embryo Freezing Explained.
+- IVF EMI and Payment Options, Is Low-Cost IVF Safe?, IVF Lab Quality Standards, Success After Failed IVF, ICSI vs IVF, Blastocyst Transfer, Male Infertility Treatment, Low AMH and IVF, PCOS and IVF Success, Questions to Ask Before IVF, When to See a Fertility Specialist, Signs You Need IVF, Steps of IVF Process, Embryo Freezing Explained.
 
 ---
 
@@ -137,7 +137,7 @@ maatritvaivffertility_landing_page-main/
 | `BreadcrumbList` | All inner pages | Navigation context |
 | `Organization` | Homepage | Brand authority |
 | `WebSite` + `SearchAction` | Homepage | Sitelinks search box |
-| `Physician` | `chhabi.html` | Doctor authority & rich results |
+| `Physician` | `chhabi.html` | Doctor authority and rich results |
 
 ### Internal Linking Structure (Topical Authority Cluster)
 
@@ -183,7 +183,7 @@ Homepage (index.html)
 - [x] `sitemap.xml` — All pages, proper priorities, image sitemap
 - [x] `robots.txt` — Allow all crawlers incl. GPTBot, Google-Extended
 - [x] Schema JSON-LD — MedicalClinic, Article, FAQ, Breadcrumb
-- [x] Meta title & description — CTR-optimized on all pages
+- [x] Meta title and description — CTR-optimized on all pages
 - [x] H1/H2/H3 hierarchy — Proper on all pages
 - [x] Internal linking — Topical cluster structure
 - [x] Floating WhatsApp CTA — For mobile conversion
@@ -225,7 +225,7 @@ Homepage (index.html)
 
 ---
 
-## 🏗️ Architecture & Implementation Plan
+## 🏗️ Architecture and Implementation Plan
 
 The platform is designed as a hybrid static/dynamic architecture:
 
@@ -252,27 +252,27 @@ When a user submits a form, the data is pushed concurrently to two destinations 
 
 ---
 
-## 🕸️ Website Wireflow & User Journey
+## 🕸️ Website Wireflow and User Journey
 
 1. **Traffic Acquisition**
-   - Organic Search (Google Search routing to SEO Pillar & Blogs)
-   - Paid Traffic (Google Ads routing to Homepage & specific service pages)
+   - Organic Search (Google Search routing to SEO Pillar and Blogs)
+   - Paid Traffic (Google Ads routing to Homepage and specific service pages)
 
 2. **Entry Points**
    - **Homepage**: Broad overview, doctor profiles, immediate CTA (Book Appointment).
    - **Pillar Page / Cluster Blogs**: Educational content building trust, linking internally to Homepage and Contact pages.
 
-3. **Core Navigation & Exploration**
+3. **Core Navigation and Exploration**
    - **About Us**: Clinic philosophy, team bios, lab technology, and FAQs.
    - **Services/Features**: Detailed information on IVF, IUI, Egg Freezing, Surrogacy, and PCOS management.
 
 4. **Conversion (Lead Generation)**
    - **Primary**: Hero section "Get Appointment" form on the Homepage.
    - **Secondary**: "Contact Us" form and "Request a Callback" form on dedicated pages.
-   - **Persistent**: Floating WhatsApp & floating Booking buttons visible on mobile screens.
+   - **Persistent**: Floating WhatsApp and floating Booking buttons visible on mobile screens.
 
 5. **Data Flow**
-   - User submits form ➡️ JavaScript intercepts payload ➡️ Pushed to Make.com & Supabase concurrently ➡️ Clinic staff contacts the patient.
+   - User submits form ➡️ JavaScript intercepts payload ➡️ Pushed to Make.com and Supabase concurrently ➡️ Clinic staff contacts the patient.
 
 ---
 
@@ -281,7 +281,7 @@ When a user submits a form, the data is pushed concurrently to two destinations 
 | Technology | Usage |
 | --- | --- |
 | HTML5 | Page structure |
-| CSS3 + Bootstrap 5 | Styling & layouts |
+| CSS3 + Bootstrap 5 | Styling and layouts |
 | JavaScript (Vanilla) | Interactions |
 | jQuery 3.6.4 | DOM manipulation |
 | WOW.js | Scroll animations |
@@ -297,9 +297,9 @@ When a user submits a form, the data is pushed concurrently to two destinations 
 
 | Doctor | Specialization | Profile Page | Experience |
 | --- | --- | --- | --- |
-| Dr. Ankita Mandal, MD (OBGYN) | Gynecologist, Obstetrician & Infertility Specialist | [ankitaivf.in](ankita.html) | 12+ Years (Gold Medalist) |
-| Dr. Chhabi Ghosh | Senior Specialist in ART & Infertility | [chhabi.html](https://maatritvaivffertility.com/chhabi.html) | 35+ Years |
-| Dr. Prattay Ghosh, MD | General Physician & Diabetologist | [drprattayghosh.com](https://drprattayghosh.com/) | 14+ Years |
+| Dr. Ankita Mandal, MD (OBGYN) | Gynecologist, Obstetrician and Infertility Specialist | [ankitaivf.in](ankita.html) | 12+ Years (Gold Medalist) |
+| Dr. Chhabi Ghosh | Senior Specialist in ART and Infertility | [chhabi.html](https://maatritvaivffertility.com/chhabi.html) | 35+ Years |
+| Dr. Prattay Ghosh, MD | General Physician and Diabetologist | [drprattayghosh.com](https://drprattayghosh.com/) | 14+ Years |
 
 ---
 
