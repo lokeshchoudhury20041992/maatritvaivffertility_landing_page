@@ -3,6 +3,17 @@
 const BACKEND_API_URL = "https://maatritvaivffertilitybackend-production.up.railway.app/api/v1/automation/form-submission";
 const SUPABASE_URL = "https://gxtzhojshtcxtmqtobai.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd4dHpob2pzaHRjeHRtcXRvYmFpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk2NTI5NjgsImV4cCI6MjA3NTIyODk2OH0.vu3TynNWVUzbM66taJapM3bPDCb3PB4dpXh44oUydqg";
+const GOOGLE_ADS_CONVERSION_SEND_TO = "AW-17172169546/eMF7COOzxMwcEMqGqvw_";
+
+function trackConsultationConversion() {
+    if (typeof window.gtag !== "function") {
+        return;
+    }
+
+    window.gtag("event", "conversion", {
+        send_to: GOOGLE_ADS_CONVERSION_SEND_TO
+    });
+}
 
 document.addEventListener("DOMContentLoaded", () => {
     // Initialize Supabase client if not already initialized
@@ -40,6 +51,8 @@ document.addEventListener("DOMContentLoaded", () => {
             };
 
             try {
+                let supabaseSaved = false;
+
                 // 1. Save to Supabase
                 if (supabaseClient) {
                     const { error: supabaseError } = await supabaseClient
@@ -49,6 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     if (supabaseError) {
                         console.error("Supabase submission failed:", supabaseError);
                     } else {
+                        supabaseSaved = true;
                         console.log("Data saved to Supabase successfully.");
                     }
                 } else {
@@ -64,8 +78,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     body: JSON.stringify(data)
                 });
 
-                if (response.ok || (supabaseClient && !supabaseError)) {
+                if (response.ok || supabaseSaved) {
                     // Show success if either backend or supabase succeeded
+                    trackConsultationConversion();
                     alert("Thank you! Your details have been submitted successfully.");
                     form.reset();
                     
