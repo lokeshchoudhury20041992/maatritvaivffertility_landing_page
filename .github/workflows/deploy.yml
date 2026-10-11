@@ -29,5 +29,6 @@ jobs:
             **/node_modules/**
             .github/
             README.md
+            NMC-COMPLIANCE-AUDIT.md
             fix_external_images.py
             update_forms.py

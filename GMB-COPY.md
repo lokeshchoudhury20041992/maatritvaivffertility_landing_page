@@ -27,19 +27,19 @@ This file contains all content needed to publish across Maatritva IVF's five Goo
 Each description is under the 750-character GMB limit and includes the required phrase **"Serving [Area] and surrounding areas — Axis Mall, Newtown"**.
 
 ### 2.1 Newtown — Axis Mall (Flagship)
-> Maatritva IVF Fertility and Healthcare is a leading fertility centre in Kolkata led by Dr. Ankita Mandal, MD (OBGYN), Gold Medalist with 12+ years of experience. We offer advanced IVF, ICSI, IUI, egg freezing and male infertility care in a fully-equipped embryology lab with time-lapse incubation and blastocyst culture. Couples receive personalised treatment protocols, transparent pricing and compassionate counselling at every stage. Serving Newtown and surrounding areas — Axis Mall, Newtown. Book a free consultation today.
+> Maatritva IVF Fertility and Healthcare is a fertility centre in Kolkata led by Dr. Ankita Mandal, MD (OBGYN), with 12+ years of experience. We offer IVF, ICSI, IUI, egg freezing and male infertility care in a fully-equipped embryology lab with time-lapse incubation and blastocyst culture. Couples receive personalised treatment protocols, transparent pricing and compassionate counselling at every stage. Serving Newtown and surrounding areas — Axis Mall, Newtown. Contact us to book a consultation.
 
 ### 2.2 Nagerbazar / Dum Dum
-> Maatritva IVF Fertility and Healthcare's Dum Dum centre brings world-class fertility care closer to North Kolkata families. Our specialists offer IVF, ICSI, IUI, egg freezing and male infertility treatment under the leadership of Dr. Ankita Mandal, MD (OBGYN). Patients benefit from individualised protocols, advanced reproductive technology and a supportive, judgement-free environment. Serving Dum Dum and surrounding areas — Axis Mall, Newtown. Walk-ins welcome. Book a free consultation.
+> Maatritva IVF Fertility and Healthcare's Dum Dum centre brings fertility consultations closer to North Kolkata families. Our specialists offer IVF, ICSI, IUI, egg freezing and male infertility treatment under the leadership of Dr. Ankita Mandal, MD (OBGYN). Patients receive individualised protocols in a supportive, judgement-free environment. Serving Dum Dum and surrounding areas — Axis Mall, Newtown. Walk-ins welcome. Contact us to book a consultation.
 
 ### 2.3 Jadavpur
-> The Jadavpur centre of Maatritva IVF Fertility and Healthcare provides expert IVF, ICSI, IUI, egg freezing and male infertility services for couples across South Kolkata. Treatments are delivered by Dr. Ankita Mandal, MD (OBGYN), Gold Medalist, with 12+ years of clinical experience in assisted reproductive technology. Transparent pricing, advanced lab support and personalised counselling included. Serving Jadavpur and surrounding areas — Axis Mall, Newtown. Book your free consultation today.
+> The Jadavpur centre of Maatritva IVF Fertility and Healthcare provides IVF, ICSI, IUI, egg freezing and male infertility services for couples across South Kolkata. Treatments are delivered by Dr. Ankita Mandal, MD (OBGYN), with 12+ years of clinical experience in assisted reproductive technology. Written cost estimates, lab support at our Newtown centre and personalised counselling. Serving Jadavpur and surrounding areas — Axis Mall, Newtown. Contact us to book a consultation.
 
 ### 2.4 Main Centre — Dr. Ankita Mandal
-> Maatritva IVF Fertility and Healthcare is one of Kolkata's most trusted fertility centres, led by Dr. Ankita Mandal, MD (OBGYN) — Gold Medalist with 12+ years of experience in IVF, ICSI, high-risk pregnancy and fetal medicine. Our advanced embryology lab supports blastocyst transfer, PGT and time-lapse imaging. Patients with low AMH, repeated IVF failures or complex infertility receive individualised care. Serving Kolkata and surrounding areas — Axis Mall, Newtown. Book a free consultation.
+> Maatritva IVF Fertility and Healthcare is a fertility centre in Kolkata led by Dr. Ankita Mandal, MD (OBGYN), with 12+ years of experience in IVF, ICSI, high-risk pregnancy and fetal medicine. Our embryology lab supports blastocyst transfer, PGT and time-lapse imaging. Patients with low AMH, repeated IVF failures or complex infertility receive individualised care. Serving Kolkata and surrounding areas — Axis Mall, Newtown. Contact us to book a consultation.
 
 ### 2.5 Garia
-> Maatritva IVF Fertility and Healthcare's Garia centre offers advanced fertility solutions for South Kolkata couples — IVF, ICSI, IUI, egg freezing and male infertility care. Treatments are delivered under the guidance of Dr. Ankita Mandal, MD (OBGYN), Gold Medalist, supported by a senior ART team. Transparent pricing, compassionate counselling and individualised protocols at every step. Serving Garia and surrounding areas — Axis Mall, Newtown. Book your free consultation today.
+> Maatritva IVF Fertility and Healthcare's Garia centre offers fertility consultations for South Kolkata couples — IVF, ICSI, IUI, egg freezing and male infertility care. Treatments are delivered under the guidance of Dr. Ankita Mandal, MD (OBGYN), supported by a senior ART team. Transparent pricing, compassionate counselling and individualised protocols at every step. Serving Garia and surrounding areas — Axis Mall, Newtown. Contact us to book a consultation.
 
 ---
 
@@ -53,7 +53,7 @@ Each description is under the 750-character GMB limit and includes the required 
 > **Link:** https://maatritvaivffertility.com/why-choose-maatritva.html
 
 **Promotional post:**
-> **Free first IVF consultation — Newtown centre.** Meet Dr. Ankita Mandal, MD (OBGYN), Gold Medalist, at our Axis Mall flagship for a no-obligation IVF consultation. Get clarity on your treatment plan, costs and success expectations. Available Monday–Saturday, 9 AM – 8 PM. Walk-ins welcome from Newtown, Rajarhat and surrounding areas.
+> **IVF consultation — Newtown centre.** Meet Dr. Ankita Mandal, MD (OBGYN), at our Axis Mall centre for an IVF consultation. Discuss your treatment options, costs, risks and realistic expectations. Available Monday–Saturday, 9 AM – 8 PM. Walk-ins welcome from Newtown, Rajarhat and surrounding areas.
 > **Button:** Book
 > **Link:** https://maatritvaivffertility.com/appointment.html
 
@@ -62,12 +62,12 @@ Each description is under the 750-character GMB limit and includes the required 
 ### Nagerbazar / Dum Dum
 
 **Educational post:**
-> **Age and IVF success: what couples in Dum Dum should know.** Female age is the single biggest factor in IVF success — under 35, success rates can reach 55–70% per cycle; for women above 40, success drops to 20–35%. If you've been trying to conceive for 12+ months (or 6 months if over 35), don't wait. Our Dum Dum centre offers free initial consultations to assess your fertility timeline.
+> **Age and IVF success: what couples in Dum Dum should know.** Female age is the single biggest factor in IVF success — success rates are generally higher under 35 and decline with age, especially after 40, though individual chances vary. If you've been trying to conceive for 12+ months (or 6 months if over 35), consider a medical evaluation. Our Dum Dum centre offers consultations to assess your situation.
 > **Button:** Read more
 > **Link:** https://maatritvaivffertility.com/ivf-success-rate-kolkata.html
 
 **Promotional post:**
-> **Dum Dum residents — IVF consultation, no travel.** Maatritva IVF's Nagerbazar centre brings expert fertility care to North Kolkata. Free first consultation, transparent IVF packages, advanced lab support handled at our Newtown HQ. Schedule a visit close to home.
+> **Dum Dum residents — IVF consultation, no travel.** Maatritva IVF's Nagerbazar centre offers fertility consultations in North Kolkata. Written cost estimates, with lab procedures handled at our Newtown centre. Schedule a visit close to home.
 > **Button:** Call
 > **Link:** tel:+918100343839
 
@@ -76,12 +76,12 @@ Each description is under the 750-character GMB limit and includes the required 
 ### Jadavpur
 
 **Educational post:**
-> **IVF cost in Kolkata 2026 — what's actually included?** Basic IVF costs ₹90,000 – ₹1,50,000 in Kolkata; ICSI add-on costs ₹1,20,000 – ₹2,00,000; PGT testing adds ₹40,000 – ₹80,000. At Maatritva, Jadavpur patients receive a written breakdown of every charge — no surprises, no hidden fees. Read our full 2026 cost guide.
+> **IVF cost in Kolkata 2026 — what's actually included?** Basic IVF costs ₹90,000 – ₹1,50,000 in Kolkata; ICSI add-on costs ₹1,20,000 – ₹2,00,000; PGT testing adds ₹40,000 – ₹80,000. At Maatritva, Jadavpur patients receive a written, itemised cost estimate. Read our full 2026 cost guide.
 > **Button:** Learn more
 > **Link:** https://maatritvaivffertility.com/ivf-cost-kolkata.html
 
 **Promotional post:**
-> **South Kolkata fertility consultation — Jadavpur centre.** Free first consultation with Maatritva IVF's specialist team. Personalised IVF, ICSI and male-infertility care. Convenient Jadavpur location for couples from Regent Park, Tollygunge, Bansdroni and surrounding areas. Book today.
+> **South Kolkata fertility consultation — Jadavpur centre.** Consult Maatritva IVF's specialist team. Personalised IVF, ICSI and male-infertility care. Convenient Jadavpur location for couples from Regent Park, Tollygunge, Bansdroni and surrounding areas. Book today.
 > **Button:** Book
 > **Link:** https://maatritvaivffertility.com/appointment.html
 
@@ -90,12 +90,12 @@ Each description is under the 750-character GMB limit and includes the required 
 ### Main Centre — Dr. Ankita Mandal
 
 **Educational post:**
-> **Repeated IVF failure — what next?** When standard IVF cycles fail twice or more, the cause is often a missed factor: thin endometrium, immunological issue, undetected genetic abnormality, or sub-optimal stimulation protocol. Dr. Ankita Mandal's main centre specialises in evaluating couples after repeated failures with ERA testing, PGT-A and individualised protocols. Don't give up — the answer is often investigative.
+> **Repeated IVF failure — what next?** When standard IVF cycles fail twice or more, the cause is often a missed factor: thin endometrium, immunological issue, undetected genetic abnormality, or sub-optimal stimulation protocol. Dr. Ankita Mandal's main centre evaluates couples after repeated failures, which may include ERA testing, PGT-A and individualised protocols, where clinically appropriate. Further investigation can help clarify the options.
 > **Button:** Learn more
 > **Link:** https://maatritvaivffertility.com/ankita.html
 
 **Promotional post:**
-> **Meet Dr. Ankita Mandal — Gold Medalist, 12+ years IVF experience.** Free consultation at our main centre. Specialist care for first-time IVF, complex infertility, low AMH and repeated failures. Transparent pricing, EMI options available. Trusted by 5,000+ Kolkata families.
+> **Meet Dr. Ankita Mandal, MD (OBGYN) — 12+ years IVF experience.** Consultations at our main centre for first-time IVF, complex infertility, low AMH and repeated failures. Written cost estimates; EMI options available.
 > **Button:** Book
 > **Link:** https://maatritvaivffertility.com/appointment.html
 
@@ -104,12 +104,12 @@ Each description is under the 750-character GMB limit and includes the required 
 ### Garia
 
 **Educational post:**
-> **5 things to ask before choosing your IVF centre — for Garia and South Kolkata couples.** 1) What's the embryology lab's air-quality grade? 2) Who's the lead embryologist and how many years' experience? 3) Are costs explained in writing before you sign? 4) Does the centre track its own success rates by age? 5) Will you see the same doctor through your cycle, or rotating staff? Maatritva IVF Garia answers yes to all five.
+> **5 things to ask before choosing your IVF centre — for Garia and South Kolkata couples.** 1) What's the embryology lab's air-quality grade? 2) Who's the lead embryologist and how many years' experience? 3) Are costs explained in writing before you sign? 4) Does the centre track its own success rates by age? 5) Will you see the same doctor through your cycle, or rotating staff? Ask any clinic you are considering, including ours.
 > **Button:** Read more
 > **Link:** https://maatritvaivffertility.com/blog-how-to-choose-ivf-centre.html
 
 **Promotional post:**
-> **Garia fertility consultation — close to home.** Maatritva IVF's Garia centre offers free first consultations, personalised treatment plans and transparent pricing. Advanced procedures handled at our fully-equipped Newtown lab. Convenient for couples from Garia, Patuli, Sonarpur and surrounding South Kolkata areas.
+> **Garia fertility consultation — close to home.** Maatritva IVF's Garia centre offers consultations, personalised treatment plans and written cost estimates. Lab procedures are handled at our Newtown centre. Convenient for couples from Garia, Patuli, Sonarpur and surrounding South Kolkata areas.
 > **Button:** Call
 > **Link:** tel:+918100343839
 

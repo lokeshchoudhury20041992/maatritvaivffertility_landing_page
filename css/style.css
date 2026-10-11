@@ -3839,3 +3839,18 @@ a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* Homepage hero: keep the title to exactly two lines */
+.home-hero-v3 h1 {
+  font-size: clamp(1.5rem, 7vw, 3.4rem);
+}
+
+@media (min-width: 992px) {
+  .home-hero-v3 h1 {
+    font-size: clamp(2.2rem, 3.6vw, 3.4rem);
+  }
+
+  .home-hero-v3 .home-title-line {
+    white-space: nowrap;
+  }
+}
